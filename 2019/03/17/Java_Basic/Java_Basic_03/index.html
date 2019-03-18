@@ -129,7 +129,7 @@
 <meta property="og:site_name" content="zsqbigbig">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://pnz676ria.bkt.clouddn.com/java0.png">
-<meta property="og:updated_time" content="2019-03-17T05:27:01.405Z">
+<meta property="og:updated_time" content="2019-03-18T16:06:52.721Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="【Java】03数据类型">
 <meta name="twitter:image" content="http://pnz676ria.bkt.clouddn.com/java0.png">
@@ -397,12 +397,24 @@
                 
               
 
-              <time title="创建时间：2019-03-17 09:04:00 / 修改时间：13:27:01" itemprop="dateCreated datePublished" datetime="2019-03-17T09:04:00+08:00">2019-03-17</time>
+              <time title="创建时间：2019-03-17 09:04:00" itemprop="dateCreated datePublished" datetime="2019-03-17T09:04:00+08:00">2019-03-17</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-03-19 00:06:52" itemprop="dateModified" datetime="2019-03-19T00:06:52+08:00">2019-03-19</time>
               
             
           </span>
@@ -444,7 +456,7 @@
 
       
         <p><img src="http://pnz676ria.bkt.clouddn.com/java0.png" alt="Java"><br><a id="more"></a></p>
-<h1 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h1><h3 id="基本数据类型"><a href="#基本数据类型" class="headerlink" title="基本数据类型"></a>基本数据类型</h3><blockquote>
+<h1 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h1><h2 id="基本数据类型"><a href="#基本数据类型" class="headerlink" title="基本数据类型"></a>基本数据类型</h2><blockquote>
 <p><strong>创建变量直接进驻内存，直接有内存地址，有默认值，小写开头</strong></p>
 <ul>
 <li>int</li>
@@ -452,7 +464,7 @@
 <li>boolean</li>
 </ul>
 </blockquote>
-<h3 id="引用数据类型"><a href="#引用数据类型" class="headerlink" title="引用数据类型"></a>引用数据类型</h3><blockquote>
+<h2 id="引用数据类型"><a href="#引用数据类型" class="headerlink" title="引用数据类型"></a>引用数据类型</h2><blockquote>
 <p><strong>利用new，新建了之后才进驻内存，new之前无地址，无默认值，会出现null，大写开头</strong></p>
 <ul>
 <li>String</li>
@@ -460,24 +472,24 @@
 <li>数组</li>
 </ul>
 </blockquote>
-<h1 id="数据类型转换"><a href="#数据类型转换" class="headerlink" title="数据类型转换"></a>数据类型转换</h1><h3 id="xxx型转换为String类型"><a href="#xxx型转换为String类型" class="headerlink" title="xxx型转换为String类型"></a>xxx型转换为String类型</h3><p>使用<code>String.valueOf(xxx)</code><br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> i=<span class="number">10</span>;</span><br><span class="line">String s = String.valueOf(a);</span><br><span class="line">System.out.print(s);</span><br></pre></td></tr></table></figure><br>输出：<code>10</code></p>
-<h3 id="String类型转换为xxx型"><a href="#String类型转换为xxx型" class="headerlink" title="String类型转换为xxx型"></a>String类型转换为xxx型</h3><p>使用<code>Xxx.valueOf(String)</code><br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">String s = <span class="string">"11.23"</span>;</span><br><span class="line"><span class="keyword">double</span> d = Double.valueOf(s);</span><br><span class="line">System.out.print(d);</span><br></pre></td></tr></table></figure><br>输出：<code>11.23</code></p>
-<h3 id="自动转换"><a href="#自动转换" class="headerlink" title="自动转换"></a>自动转换</h3><p>int和double类型进行运算，结果为double类型<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> i = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">double</span> d = <span class="number">3.0</span>;</span><br><span class="line">System.out.print(i/d);</span><br></pre></td></tr></table></figure><br>输出：<code>3.3333333333333335</code></p>
-<h3 id="强制转换"><a href="#强制转换" class="headerlink" title="强制转换"></a>强制转换</h3><p>将高精度转换为低精度，会丢失精度<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">double</span> d = <span class="number">3.333</span>;</span><br><span class="line"><span class="keyword">int</span> i = (<span class="keyword">int</span>)d;</span><br><span class="line">System.out.print(i);</span><br></pre></td></tr></table></figure><br>输出：<code>3</code></p>
-<h1 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h1><h3 id="赋值运算符"><a href="#赋值运算符" class="headerlink" title="赋值运算符"></a>赋值运算符</h3><blockquote>
+<h1 id="数据类型转换"><a href="#数据类型转换" class="headerlink" title="数据类型转换"></a>数据类型转换</h1><h2 id="xxx型转换为String类型"><a href="#xxx型转换为String类型" class="headerlink" title="xxx型转换为String类型"></a>xxx型转换为String类型</h2><p>使用<code>String.valueOf(xxx)</code><br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> i=<span class="number">10</span>;</span><br><span class="line">String s = String.valueOf(a);</span><br><span class="line">System.out.print(s);</span><br></pre></td></tr></table></figure><br>输出：<code>10</code></p>
+<h2 id="String类型转换为xxx型"><a href="#String类型转换为xxx型" class="headerlink" title="String类型转换为xxx型"></a>String类型转换为xxx型</h2><p>使用<code>Xxx.valueOf(String)</code><br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">String s = <span class="string">"11.23"</span>;</span><br><span class="line"><span class="keyword">double</span> d = Double.valueOf(s);</span><br><span class="line">System.out.print(d);</span><br></pre></td></tr></table></figure><br>输出：<code>11.23</code></p>
+<h2 id="自动转换"><a href="#自动转换" class="headerlink" title="自动转换"></a>自动转换</h2><p>int和double类型进行运算，结果为double类型<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> i = <span class="number">10</span>;</span><br><span class="line"><span class="keyword">double</span> d = <span class="number">3.0</span>;</span><br><span class="line">System.out.print(i/d);</span><br></pre></td></tr></table></figure><br>输出：<code>3.3333333333333335</code></p>
+<h2 id="强制转换"><a href="#强制转换" class="headerlink" title="强制转换"></a>强制转换</h2><p>将高精度转换为低精度，会丢失精度<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">double</span> d = <span class="number">3.333</span>;</span><br><span class="line"><span class="keyword">int</span> i = (<span class="keyword">int</span>)d;</span><br><span class="line">System.out.print(i);</span><br></pre></td></tr></table></figure><br>输出：<code>3</code></p>
+<h1 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h1><h2 id="赋值运算符"><a href="#赋值运算符" class="headerlink" title="赋值运算符"></a>赋值运算符</h2><blockquote>
 <ul>
 <li>=&nbsp;&nbsp;&nbsp;&nbsp;虽然是等号，但起作用是赋值。</li>
 </ul>
 </blockquote>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> a=<span class="number">5</span>;    <span class="comment">//将5这个值赋给a</span></span><br><span class="line">System.out.println(a);</span><br></pre></td></tr></table></figure>
 <p>输出：<code>5</code></p>
-<h3 id="一元运算符"><a href="#一元运算符" class="headerlink" title="一元运算符"></a>一元运算符</h3><blockquote>
+<h2 id="一元运算符"><a href="#一元运算符" class="headerlink" title="一元运算符"></a>一元运算符</h2><blockquote>
 <ul>
 <li>+ 正号</li>
 <li>- 负号</li>
 </ul>
 </blockquote>
-<h3 id="算术运算符"><a href="#算术运算符" class="headerlink" title="算术运算符"></a>算术运算符</h3><blockquote>
+<h2 id="算术运算符"><a href="#算术运算符" class="headerlink" title="算术运算符"></a>算术运算符</h2><blockquote>
 <ul>
 <li>+&nbsp;&nbsp;&nbsp;加</li>
 <li>-&nbsp;&nbsp;&nbsp;减</li>
@@ -486,7 +498,7 @@
 <li>%&nbsp;&nbsp;&nbsp;取余</li>
 </ul>
 </blockquote>
-<h3 id="算术赋值运算符"><a href="#算术赋值运算符" class="headerlink" title="算术赋值运算符"></a>算术赋值运算符</h3><blockquote>
+<h2 id="算术赋值运算符"><a href="#算术赋值运算符" class="headerlink" title="算术赋值运算符"></a>算术赋值运算符</h2><blockquote>
 <ul>
 <li>+=&nbsp;&nbsp;&nbsp;</li>
 <li>-=&nbsp;&nbsp;&nbsp;</li>
@@ -496,7 +508,7 @@
 </ul>
 </blockquote>
 <p>b+=a和b=b+a区别？<br>前者效率高，后者效率低。<br>后者，b+a在计算时，需要重新开辟空间。</p>
-<h3 id="关系运算符"><a href="#关系运算符" class="headerlink" title="关系运算符"></a>关系运算符</h3><blockquote>
+<h2 id="关系运算符"><a href="#关系运算符" class="headerlink" title="关系运算符"></a>关系运算符</h2><blockquote>
 <ul>
 <li>>&nbsp;&nbsp;&nbsp;大于</li>
 <li>&lt;&nbsp;&nbsp;&nbsp;小于</li>
@@ -505,23 +517,23 @@
 <li>>=&nbsp;&nbsp;&nbsp;大于等于<br>其返回结果为Boolean型(True/False)</li>
 </ul>
 </blockquote>
-<h3 id="自增自减运算符"><a href="#自增自减运算符" class="headerlink" title="自增自减运算符"></a>自增自减运算符</h3><blockquote>
+<h2 id="自增自减运算符"><a href="#自增自减运算符" class="headerlink" title="自增自减运算符"></a>自增自减运算符</h2><blockquote>
 <ul>
 <li>++&nbsp;&nbsp;&nbsp;&nbsp;自增1</li>
 <li>--&nbsp;&nbsp;&nbsp;&nbsp;自减1<br>a++:先调用a，再+1<br>++a:先+1，在调用a</li>
 </ul>
 </blockquote>
-<h3 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h3><blockquote>
+<h2 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h2><blockquote>
 <ul>
 <li>&amp;&amp;&nbsp;&nbsp;&nbsp;&nbsp;且</li>
 <li>||&nbsp;&nbsp;&nbsp;&nbsp;或</li>
 <li>!&nbsp;&nbsp;&nbsp;&nbsp;非<br>返回结果为Boolean型</li>
 </ul>
 </blockquote>
-<h3 id="小括号运算符"><a href="#小括号运算符" class="headerlink" title="小括号运算符"></a>小括号运算符</h3><blockquote>
+<h2 id="小括号运算符"><a href="#小括号运算符" class="headerlink" title="小括号运算符"></a>小括号运算符</h2><blockquote>
 <p>()<br><strong>运算优先级最高，一般用来改变运算顺序</strong></p>
 </blockquote>
-<h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><p>上述1~8，8中运算符，优先级越来越高<br>*、/高于+、-<br>!高于&amp;&amp;、||<br>技巧：多加小括号，保证运算顺序<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">System.out.print(!(<span class="number">6</span>&gt;<span class="number">9</span>)&amp;&amp;(<span class="number">9</span>&gt;<span class="number">1</span>))</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">先运算(6&lt;9)-&gt;False;(9&gt;1)-&gt;True</span></span><br><span class="line"><span class="comment">在运算!(6&lt;9)-&gt;True</span></span><br><span class="line"><span class="comment">最后运算!(6&gt;9)&amp;&amp;(9&gt;1)-&gt;True&amp;&amp;True-&gt;True</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure><br>输出：<code>True</code></p>
+<h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>上述1~8，8中运算符，优先级越来越高<br>*、/高于+、-<br>!高于&amp;&amp;、||<br>技巧：多加小括号，保证运算顺序<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">System.out.print(!(<span class="number">6</span>&gt;<span class="number">9</span>)&amp;&amp;(<span class="number">9</span>&gt;<span class="number">1</span>))</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">先运算(6&lt;9)-&gt;False;(9&gt;1)-&gt;True</span></span><br><span class="line"><span class="comment">在运算!(6&lt;9)-&gt;True</span></span><br><span class="line"><span class="comment">最后运算!(6&gt;9)&amp;&amp;(9&gt;1)-&gt;True&amp;&amp;True-&gt;True</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure><br>输出：<code>True</code></p>
 <h1 id="注意：学习技巧"><a href="#注意：学习技巧" class="headerlink" title="注意：学习技巧"></a>注意：学习技巧</h1><blockquote>
 <ul>
 <li>初级阶段：<br>  模仿。即使不理解，也要去使用。</li>
@@ -799,7 +811,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#数据类型"><span class="nav-number">1.</span> <span class="nav-text">数据类型</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#基本数据类型"><span class="nav-number">1.0.1.</span> <span class="nav-text">基本数据类型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#引用数据类型"><span class="nav-number">1.0.2.</span> <span class="nav-text">引用数据类型</span></a></li></ol></li></ol><li class="nav-item nav-level-1"><a class="nav-link" href="#数据类型转换"><span class="nav-number">2.</span> <span class="nav-text">数据类型转换</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#xxx型转换为String类型"><span class="nav-number">2.0.1.</span> <span class="nav-text">xxx型转换为String类型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#String类型转换为xxx型"><span class="nav-number">2.0.2.</span> <span class="nav-text">String类型转换为xxx型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#自动转换"><span class="nav-number">2.0.3.</span> <span class="nav-text">自动转换</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#强制转换"><span class="nav-number">2.0.4.</span> <span class="nav-text">强制转换</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#运算符"><span class="nav-number">3.</span> <span class="nav-text">运算符</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#赋值运算符"><span class="nav-number">3.0.1.</span> <span class="nav-text">赋值运算符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#一元运算符"><span class="nav-number">3.0.2.</span> <span class="nav-text">一元运算符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#算术运算符"><span class="nav-number">3.0.3.</span> <span class="nav-text">算术运算符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#算术赋值运算符"><span class="nav-number">3.0.4.</span> <span class="nav-text">算术赋值运算符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#关系运算符"><span class="nav-number">3.0.5.</span> <span class="nav-text">关系运算符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#自增自减运算符"><span class="nav-number">3.0.6.</span> <span class="nav-text">自增自减运算符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#逻辑运算符"><span class="nav-number">3.0.7.</span> <span class="nav-text">逻辑运算符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#小括号运算符"><span class="nav-number">3.0.8.</span> <span class="nav-text">小括号运算符</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#小结"><span class="nav-number">3.0.9.</span> <span class="nav-text">小结</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#注意：学习技巧"><span class="nav-number">4.</span> <span class="nav-text">注意：学习技巧</span></a></li></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#数据类型"><span class="nav-number">1.</span> <span class="nav-text">数据类型</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#基本数据类型"><span class="nav-number">1.1.</span> <span class="nav-text">基本数据类型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#引用数据类型"><span class="nav-number">1.2.</span> <span class="nav-text">引用数据类型</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#数据类型转换"><span class="nav-number">2.</span> <span class="nav-text">数据类型转换</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#xxx型转换为String类型"><span class="nav-number">2.1.</span> <span class="nav-text">xxx型转换为String类型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#String类型转换为xxx型"><span class="nav-number">2.2.</span> <span class="nav-text">String类型转换为xxx型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#自动转换"><span class="nav-number">2.3.</span> <span class="nav-text">自动转换</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#强制转换"><span class="nav-number">2.4.</span> <span class="nav-text">强制转换</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#运算符"><span class="nav-number">3.</span> <span class="nav-text">运算符</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#赋值运算符"><span class="nav-number">3.1.</span> <span class="nav-text">赋值运算符</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#一元运算符"><span class="nav-number">3.2.</span> <span class="nav-text">一元运算符</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#算术运算符"><span class="nav-number">3.3.</span> <span class="nav-text">算术运算符</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#算术赋值运算符"><span class="nav-number">3.4.</span> <span class="nav-text">算术赋值运算符</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#关系运算符"><span class="nav-number">3.5.</span> <span class="nav-text">关系运算符</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#自增自减运算符"><span class="nav-number">3.6.</span> <span class="nav-text">自增自减运算符</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#逻辑运算符"><span class="nav-number">3.7.</span> <span class="nav-text">逻辑运算符</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#小括号运算符"><span class="nav-number">3.8.</span> <span class="nav-text">小括号运算符</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#小结"><span class="nav-number">3.9.</span> <span class="nav-text">小结</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#注意：学习技巧"><span class="nav-number">4.</span> <span class="nav-text">注意：学习技巧</span></a></li></ol></div>
             
 
           </div>
@@ -842,7 +854,7 @@
 <!-- / 网站底部字数统计 -->
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count"><br> 博客全站共<b><font color="gray">9.3k</font></b>字</span>
+  <span class="post-count"><br> 博客全站共<b><font color="gray">9.5k</font></b>字</span>
 </div>
         
 <div class="busuanzi-count">
