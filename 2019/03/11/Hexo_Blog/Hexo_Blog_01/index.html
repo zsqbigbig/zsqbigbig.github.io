@@ -122,13 +122,14 @@
 
 
 
-  <meta name="keywords" content="Blog">
+  <meta name="description" content="搭建及部署博客。其中的过程很麻烦，但是按照步骤一步一步的做，其实很容易就能做到。我的系统是Win10,64位的操作系统。在我搭建博客的时候，看的一个MacOS操作系统搭建的博客。其中虽然差别不大，但是也让我走了很多弯路。如果过程顺利，最多半个小时就可以搭建好博客。以下的过程是在Win10操作系统下进行的，如果大家是Windows操作系统，可以参考以下步骤搭建博客。">
+<meta name="keywords" content="Blog">
 <meta property="og:type" content="article">
-<meta property="og:title" content="【配置博客】01搭建博客">
+<meta property="og:title" content="【配置博客】01Windows操作系统搭建博客">
 <meta property="og:url" content="http://yoursite.com/2019/03/11/Hexo_Blog/Hexo_Blog_01/index.html">
 <meta property="og:site_name" content="zsqbigbig">
+<meta property="og:description" content="搭建及部署博客。其中的过程很麻烦，但是按照步骤一步一步的做，其实很容易就能做到。我的系统是Win10,64位的操作系统。在我搭建博客的时候，看的一个MacOS操作系统搭建的博客。其中虽然差别不大，但是也让我走了很多弯路。如果过程顺利，最多半个小时就可以搭建好博客。以下的过程是在Win10操作系统下进行的，如果大家是Windows操作系统，可以参考以下步骤搭建博客。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://pnz676ria.bkt.clouddn.com/hexo.jpg">
 <meta property="og:image" content="http://pnz676ria.bkt.clouddn.com/Hexo_File.png">
 <meta property="og:image" content="http://pnz676ria.bkt.clouddn.com/githubindex.png">
 <meta property="og:image" content="http://pnz676ria.bkt.clouddn.com/Creataurl.png">
@@ -136,11 +137,17 @@
 <meta property="og:image" content="http://pnz676ria.bkt.clouddn.com/gitbashhere.png">
 <meta property="og:image" content="http://pnz676ria.bkt.clouddn.com/SHH%20key.png">
 <meta property="og:image" content="http://pnz676ria.bkt.clouddn.com/shh%20git@github.png">
+<meta property="og:image" content="http://pnz676ria.bkt.clouddn.com/blog013cnpm.png">
+<meta property="og:image" content="http://pnz676ria.bkt.clouddn.com/blog014hexocli.png">
+<meta property="og:image" content="http://pnz676ria.bkt.clouddn.com/blog015hexoinit.png">
+<meta property="og:image" content="http://pnz676ria.bkt.clouddn.com/blog016hexo.png">
 <meta property="og:image" content="http://pnz676ria.bkt.clouddn.com/_config01.png">
-<meta property="og:updated_time" content="2019-03-11T10:32:35.303Z">
+<meta property="og:image" content="http://pnz676ria.bkt.clouddn.com/blog017githublogin.png">
+<meta property="og:updated_time" content="2019-03-18T16:00:52.896Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="【配置博客】01搭建博客">
-<meta name="twitter:image" content="http://pnz676ria.bkt.clouddn.com/hexo.jpg">
+<meta name="twitter:title" content="【配置博客】01Windows操作系统搭建博客">
+<meta name="twitter:description" content="搭建及部署博客。其中的过程很麻烦，但是按照步骤一步一步的做，其实很容易就能做到。我的系统是Win10,64位的操作系统。在我搭建博客的时候，看的一个MacOS操作系统搭建的博客。其中虽然差别不大，但是也让我走了很多弯路。如果过程顺利，最多半个小时就可以搭建好博客。以下的过程是在Win10操作系统下进行的，如果大家是Windows操作系统，可以参考以下步骤搭建博客。">
+<meta name="twitter:image" content="http://pnz676ria.bkt.clouddn.com/Hexo_File.png">
 
 
 
@@ -157,7 +164,7 @@
   };
 </script>
 
-  <title>【配置博客】01搭建博客 | zsqbigbig</title>
+  <title>【配置博客】01Windows操作系统搭建博客 | zsqbigbig</title>
   
 
 
@@ -379,7 +386,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">【配置博客】01搭建博客
+          <h1 class="post-title" itemprop="name headline">【配置博客】01Windows操作系统搭建博客
 
               
             
@@ -405,12 +412,24 @@
                 
               
 
-              <time title="创建时间：2019-03-11 08:34:35 / 修改时间：18:32:35" itemprop="dateCreated datePublished" datetime="2019-03-11T08:34:35+08:00">2019-03-11</time>
+              <time title="创建时间：2019-03-11 08:34:35" itemprop="dateCreated datePublished" datetime="2019-03-11T08:34:35+08:00">2019-03-11</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-03-19 00:00:52" itemprop="dateModified" datetime="2019-03-19T00:00:52+08:00">2019-03-19</time>
               
             
           </span>
@@ -451,9 +470,9 @@
       
 
       
-        <div align="center"><br><img src="http://pnz676ria.bkt.clouddn.com/hexo.jpg" alt="Hexo"><br></div>
-
-<a id="more"></a>
+        <blockquote>
+<p>搭建及部署博客。其中的过程很麻烦，但是按照步骤一步一步的做，其实很容易就能做到。我的系统是Win10,64位的操作系统。在我搭建博客的时候，看的一个MacOS操作系统搭建的博客。其中虽然差别不大，但是也让我走了很多弯路。如果过程顺利，最多半个小时就可以搭建好博客。以下的过程是在Win10操作系统下进行的，如果大家是Windows操作系统，可以参考以下步骤搭建博客。<br><a id="more"></a></p>
+</blockquote>
 <p></p><p>前言</p><br>搭建博客框架最好一次完成，因为其中可能会遇到很多问题。遇到问题是最好一次就解决了，不要丢到下一次。我之前看大佬的视频安装，他们一步一步做的都很顺利，我跟着他们一步一步的做，却遇到了很多的问题。要么百度，要么卸载软件重新安装，这个过程很折磨人。但是学会以后，应该可以在二十分钟之内就搭建好一个博客的框架了。我在第一次搭建博客框架花了一天的时间，遇到了各种各样的问题，而且还解决了。建好之后还是很开心的！所以，搭建博客这种事情，尽量一次就做完，不要分几次才做好。<p></p>
 <hr>
 <blockquote>
@@ -463,29 +482,31 @@
 <h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><blockquote>
 <p>首先，我创建了一个文件夹，将所需要的文件全部放到了同一个文件夹中。<br>我个人认为，这样比较方便实用。但事实情况下，好像并不是这样。<br>仅供参考：<br><img src="http://pnz676ria.bkt.clouddn.com/Hexo_File.png" alt="下载的文件"></p>
 </blockquote>
-<h3 id="1-注册Github账号"><a href="#1-注册Github账号" class="headerlink" title="1.注册Github账号"></a>1.注册Github账号</h3><p>Github的<a href="https://github.com" target="_blank" rel="noopener">官方网站</a> (<a href="https://github.com" target="_blank" rel="noopener">https://github.com</a>) ，注册账号登录。</p>
-<h3 id="2-创建一个仓库-repository"><a href="#2-创建一个仓库-repository" class="headerlink" title="2.创建一个仓库(repository)"></a>2.创建一个仓库(repository)</h3><p>点击如下按钮<font color="red"><strong>Your repositories</strong></font><img src="http://pnz676ria.bkt.clouddn.com/githubindex.png" alt="Your repositories"><br>在跳转到的页面中，点击一个绿色的<font color="red"><strong>new</strong></font>按钮。<br>网站右上角显示自己的用户名，在repository name框内输入：用户名.github.io。这个网址将来就作为你个人博客的地址。<br>例如：我的用户名是zsqbigbig，那么我在<font color="red"><strong>repository</strong></font>的框内输入的为：<code>zsqbigbig.github.io</code>。这个地址是唯一指定的，不要乱改！如下图所示：<br><img src="http://pnz676ria.bkt.clouddn.com/Creataurl.png" alt="createurl"><br>下面的内容不需要改动，点击<font color="red"><strong>Create repository</strong></font>按钮提交即可！</p>
-<h3 id="3-Git"><a href="#3-Git" class="headerlink" title="3.Git"></a>3.Git</h3><p>根据自己的操作系统，下载Git。这里是<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">Git的官网</a> (<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">https://git-scm.com/downloads</a>) 。</p>
-<h3 id="4-Nodejs"><a href="#4-Nodejs" class="headerlink" title="4.Nodejs"></a>4.Nodejs</h3><p>Nodejs的<a href="https://nodejs.org/en/" target="_blank" rel="noopener">下载地址</a> (<a href="https://nodejs.org/en/" target="_blank" rel="noopener">https://nodejs.org/en/</a>) <img src="http://pnz676ria.bkt.clouddn.com/Nosejsdownloadaddress.png" alt="nodejs下载">点击LTS，根据自己的操作系统选择下载文件。</p>
+<h2 id="1-注册Github账号"><a href="#1-注册Github账号" class="headerlink" title="1.注册Github账号"></a>1.注册Github账号</h2><p>Github的<a href="https://github.com" target="_blank" rel="noopener">官方网站</a> (<a href="https://github.com" target="_blank" rel="noopener">https://github.com</a>) ，注册账号登录。</p>
+<h2 id="2-创建一个仓库-repository"><a href="#2-创建一个仓库-repository" class="headerlink" title="2.创建一个仓库(repository)"></a>2.创建一个仓库(repository)</h2><p>点击如下按钮<font color="red"><strong>Your repositories</strong></font><img src="http://pnz676ria.bkt.clouddn.com/githubindex.png" alt="Your repositories"><br>在跳转到的页面中，点击一个绿色的<font color="red"><strong>new</strong></font>按钮。<br>网站右上角显示自己的用户名，在repository name框内输入：用户名.github.io。这个网址将来就作为你个人博客的地址。<br>例如：我的用户名是zsqbigbig，那么我在<font color="red"><strong>repository</strong></font>的框内输入的为：<code>zsqbigbig.github.io</code>。这个地址是唯一指定的，不要乱改！如下图所示：<br><img src="http://pnz676ria.bkt.clouddn.com/Creataurl.png" alt="createurl"><br>下面的内容不需要改动，点击<font color="red"><strong>Create repository</strong></font>按钮提交即可！</p>
+<h2 id="3-Git"><a href="#3-Git" class="headerlink" title="3.Git"></a>3.Git</h2><p>根据自己的操作系统，下载Git。这里是<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">Git的官网</a> (<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">https://git-scm.com/downloads</a>) 。</p>
+<h2 id="4-Nodejs"><a href="#4-Nodejs" class="headerlink" title="4.Nodejs"></a>4.Nodejs</h2><p>Nodejs的<a href="https://nodejs.org/en/" target="_blank" rel="noopener">下载地址</a> (<a href="https://nodejs.org/en/" target="_blank" rel="noopener">https://nodejs.org/en/</a>) <img src="http://pnz676ria.bkt.clouddn.com/Nosejsdownloadaddress.png" alt="nodejs下载">点击LTS，根据自己的操作系统选择下载文件。</p>
 <p>做完以上几步，准备工作便做完了。</p>
 <h1 id="搭建博客"><a href="#搭建博客" class="headerlink" title="搭建博客"></a>搭建博客</h1><p><div align="center"><img src="http://pnz676ria.bkt.clouddn.com/gitbashhere.png" alt="GitBashHere"></div><br>点击右键，在出现选项中点击<font color="red"><strong>Git Bash Here</strong></font>：</p>
-<h3 id="1-输入指令，连接Github："><a href="#1-输入指令，连接Github：" class="headerlink" title="1.输入指令，连接Github："></a>1.输入指令，连接Github：</h3><p>第一段指令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;你的GitHub用户名&quot;</span><br><span class="line">git config --global user.email &quot;你的GitHub注册邮箱&quot;</span><br></pre></td></tr></table></figure></p>
+<h2 id="1-输入指令，连接Github："><a href="#1-输入指令，连接Github：" class="headerlink" title="1.输入指令，连接Github："></a>1.输入指令，连接Github：</h2><p>第一段指令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;你的GitHub用户名&quot;</span><br><span class="line">git config --global user.email &quot;你的GitHub注册邮箱&quot;</span><br></pre></td></tr></table></figure></p>
 <p>输入第二段指令：<br><code>生成ssh秘钥</code>ssh秘钥有一把公钥，一把私钥。公钥可以自由的放在您所要连接的ssh服务器上，私钥一定要自己保管好<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;你的GitHub注册邮箱&quot;</span><br></pre></td></tr></table></figure></p>
 <p>连续按三个回车即可。<br>找到所生成的.ssh文件夹中的id_rsa.pub秘钥，将内容全部复制<br>打开Github中，创建<a href="https://github.com/settings/keys" target="_blank" rel="noopener">SHH Key</a> (<a href="https://github.com/settings/keys" target="_blank" rel="noopener">https://github.com/settings/keys</a>)<br>点击<font color="red"><strong>New SSH key</strong></font>，新建SHH。<br><img src="http://pnz676ria.bkt.clouddn.com/SHH%20key.png" alt="SSH Key"><br>将id_rsa.pub的内容复制到<strong>key</strong>的文本框中，点击<font color="red"><strong>Add SSH key</strong></font>提交。<br>在Git Bash中检测Github公钥是否设置成功，输入<code>ssh git@github.com</code>，若显示如下，则公钥设置成功：</p>
 <p><div align="center"><img src="http://pnz676ria.bkt.clouddn.com/shh%20git@github.png" alt="ssh git@github.com"><br></div></p>
-<h3 id="2-安装Hexo"><a href="#2-安装Hexo" class="headerlink" title="2.安装Hexo"></a>2.安装Hexo</h3><blockquote>
-<p>上面的文件夹中，可以看到有一个文件夹的名字为<strong>blog</strong><font color="red">注意，在安装Hexo时，要求此文件夹为空！如下的所有语句均在此文件夹中执行</font>。这个文件夹，用来存储自己博客所有内容的文件夹，对博客的创建，配置，以及修改都在这个文件夹中进行。如果在搭建博客的过程中，遇到什么问题，直接删除这个文件夹重新做就好了！</p>
+<h2 id="2-安装Hexo"><a href="#2-安装Hexo" class="headerlink" title="2.安装Hexo"></a>2.安装Hexo</h2><h3 id="1-cnpm"><a href="#1-cnpm" class="headerlink" title="1.cnpm"></a>1.cnpm</h3><blockquote>
+<p>直接使用npm，下载安装的速度会特别慢。因此，就需要利用npm去安装良心阿里的cnpm。</p>
 </blockquote>
-<p>在blog文件夹下，打开<font color="red"><strong>Git Bash Here</strong></font>，输入如下内容初始化我们的博客：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure></p>
-<p>如果其中没有错误，则执行如下语句：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line"></span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure></p>
-<p>完成后，在网页中输入地址：<code>localhost:4000</code>，打开后便是我们博客的原始形态。</p>
-<h3 id="3-将Hexo博客与Github关联"><a href="#3-将Hexo博客与Github关联" class="headerlink" title="3.将Hexo博客与Github关联"></a>3.将Hexo博客与Github关联</h3><p>打开blog文件夹，打开站点的配置文件<code>_config.yml</code>。<br>翻到最后，找到如下图的地方：</p>
+<p>打开<code>Git Bash</code>，输入<code>npm install -g cnpm --registry=http://registry.npm.taobao.org</code>。等待安装。<br><img src="http://pnz676ria.bkt.clouddn.com/blog013cnpm.png" alt="cnpm"></p>
+<h3 id="2-安装Hexo-1"><a href="#2-安装Hexo-1" class="headerlink" title="2.安装Hexo"></a>2.安装Hexo</h3><p>打开<code>Git Bash</code>，输入<code>cnpm install -g hexo-cli</code>。安装Hexo博客框架。<br><img src="http://pnz676ria.bkt.clouddn.com/blog014hexocli.png" alt="hexo-cli"><br>可以在输入<code>hexo -v</code>，查看hexo安装情况。</p>
+<h3 id="3-安装并部署Hexo框架"><a href="#3-安装并部署Hexo框架" class="headerlink" title="3.安装并部署Hexo框架"></a>3.安装并部署Hexo框架</h3><p>注意，在安装Hexo时，要求创建所存放博客的文件夹为空！如下的所有语句均在此文件夹中执行。这个文件夹，用来存储自己博客所有内容的文件夹，对博客的创建，配置，以及修改都在这个文件夹中进行。如果在搭建博客的过程中，遇到什么问题，直接删除这个文件夹重新做就好了！<br>在blog文件夹下，打开<font color="red"><strong>Git Bash Here</strong></font>，输入如下内容初始化我们的博客：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure></p>
+<p><img src="http://pnz676ria.bkt.clouddn.com/blog015hexoinit.png" alt="hexoinit"><br>如果其中没有错误，则执行如下语句：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">// hexo g 执行结束，输入下一行语句</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure></p>
+<p>完成后，在网页中输入地址：<code>localhost:4000</code>，打开后便是我们博客的原始形态。<br><img src="http://pnz676ria.bkt.clouddn.com/blog016hexo.png" alt="landscape"></p>
+<h2 id="3-将Hexo博客与Github关联"><a href="#3-将Hexo博客与Github关联" class="headerlink" title="3.将Hexo博客与Github关联"></a>3.将Hexo博客与Github关联</h2><p>打开blog文件夹，打开站点的配置文件<code>_config.yml</code>。<br>翻到最后，找到如下图的地方：</p>
 <p><div align="center"><img src="http://pnz676ria.bkt.clouddn.com/_config01.png" alt="_config"></div><br>将这个地方更改为：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/zsqbigbig/zsqbigbig.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure></p>
 <p><code>其中，repo之后改为自己的地址，记得在地址后加.git</code></p>
-<h3 id="4-安装Git部署插件"><a href="#4-安装Git部署插件" class="headerlink" title="4.安装Git部署插件"></a>4.安装Git部署插件</h3><p>输入命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
-<p>在执行如下语句<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line"></span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure></p>
-<p><code>hexo d</code>就是部署你博客网站的指令。<br>这个语句将你的博客上传到你的Github中。若没有弹出错误，在网页中输入你的放置个人网站的仓库路径，即：<code>用户名.github.io</code>。此时，你的博客已经可以正常访问了！</p>
-<h3 id="5-常用指令"><a href="#5-常用指令" class="headerlink" title="5.常用指令"></a>5.常用指令</h3><blockquote>
+<h2 id="4-安装Git部署插件"><a href="#4-安装Git部署插件" class="headerlink" title="4.安装Git部署插件"></a>4.安装Git部署插件</h2><p>输入命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
+<p>等待安装结束，再执行如下语句<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line"></span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure></p>
+<p><code>hexo d</code>就是部署你博客网站的指令。<br>此时，还会弹出GitHub的登录窗口，输入账号密码登录即可。<br><img src="http://pnz676ria.bkt.clouddn.com/blog017githublogin.png" alt="logingithub"><br>这个语句将你的博客上传到你的Github中。若没有弹出错误，在网页中输入你的放置个人网站的仓库路径，即：<code>用户名.github.io</code>。此时，你的博客已经可以正常访问了！</p>
+<h2 id="5-常用指令"><a href="#5-常用指令" class="headerlink" title="5.常用指令"></a>5.常用指令</h2><blockquote>
 <p>hexo g  #生成<br>hexo d  #部署<br>hexo s  #启动服务预览<br>hexo n “blog”  #在source/_posts/blog.md #(<strong>.md文件便是写博客的文件，需使用markdown语言编写</strong>)</p>
 </blockquote>
 
@@ -758,7 +779,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#目录"><span class="nav-number">1.</span> <span class="nav-text">目录</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#准备工作"><span class="nav-number">2.</span> <span class="nav-text">准备工作</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-注册Github账号"><span class="nav-number">2.0.1.</span> <span class="nav-text">1.注册Github账号</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-创建一个仓库-repository"><span class="nav-number">2.0.2.</span> <span class="nav-text">2.创建一个仓库(repository)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-Git"><span class="nav-number">2.0.3.</span> <span class="nav-text">3.Git</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-Nodejs"><span class="nav-number">2.0.4.</span> <span class="nav-text">4.Nodejs</span></a></li></ol></li></ol><li class="nav-item nav-level-1"><a class="nav-link" href="#搭建博客"><span class="nav-number">3.</span> <span class="nav-text">搭建博客</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-输入指令，连接Github："><span class="nav-number">3.0.1.</span> <span class="nav-text">1.输入指令，连接Github：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-安装Hexo"><span class="nav-number">3.0.2.</span> <span class="nav-text">2.安装Hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-将Hexo博客与Github关联"><span class="nav-number">3.0.3.</span> <span class="nav-text">3.将Hexo博客与Github关联</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-安装Git部署插件"><span class="nav-number">3.0.4.</span> <span class="nav-text">4.安装Git部署插件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-常用指令"><span class="nav-number">3.0.5.</span> <span class="nav-text">5.常用指令</span></a></li></ol></li></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#目录"><span class="nav-number">1.</span> <span class="nav-text">目录</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#准备工作"><span class="nav-number">2.</span> <span class="nav-text">准备工作</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-注册Github账号"><span class="nav-number">2.1.</span> <span class="nav-text">1.注册Github账号</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-创建一个仓库-repository"><span class="nav-number">2.2.</span> <span class="nav-text">2.创建一个仓库(repository)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-Git"><span class="nav-number">2.3.</span> <span class="nav-text">3.Git</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-Nodejs"><span class="nav-number">2.4.</span> <span class="nav-text">4.Nodejs</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#搭建博客"><span class="nav-number">3.</span> <span class="nav-text">搭建博客</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-输入指令，连接Github："><span class="nav-number">3.1.</span> <span class="nav-text">1.输入指令，连接Github：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-安装Hexo"><span class="nav-number">3.2.</span> <span class="nav-text">2.安装Hexo</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-cnpm"><span class="nav-number">3.2.1.</span> <span class="nav-text">1.cnpm</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-安装Hexo-1"><span class="nav-number">3.2.2.</span> <span class="nav-text">2.安装Hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-安装并部署Hexo框架"><span class="nav-number">3.2.3.</span> <span class="nav-text">3.安装并部署Hexo框架</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-将Hexo博客与Github关联"><span class="nav-number">3.3.</span> <span class="nav-text">3.将Hexo博客与Github关联</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-安装Git部署插件"><span class="nav-number">3.4.</span> <span class="nav-text">4.安装Git部署插件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-常用指令"><span class="nav-number">3.5.</span> <span class="nav-text">5.常用指令</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -801,7 +822,7 @@
 <!-- / 网站底部字数统计 -->
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count"><br> 博客全站共<b><font color="gray">9k</font></b>字</span>
+  <span class="post-count"><br> 博客全站共<b><font color="gray">9.3k</font></b>字</span>
 </div>
         
 <div class="busuanzi-count">
