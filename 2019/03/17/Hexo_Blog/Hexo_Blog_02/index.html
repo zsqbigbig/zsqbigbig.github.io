@@ -130,16 +130,17 @@
 <meta property="og:site_name" content="zsqbigbig">
 <meta property="og:description" content="在yilia主题下，添加显示访问量的功能。该功能可以在博客的底部看到自己博客访问量以及访客量。有以下两种方法。">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http://pnz676ria.bkt.clouddn.com/blog001zncc.png">
 <meta property="og:image" content="http://pnz676ria.bkt.clouddn.com/blog002url.png">
 <meta property="og:image" content="http://pnz676ria.bkt.clouddn.com/blog003copy.png">
 <meta property="og:image" content="http://pnz676ria.bkt.clouddn.com/blog004code.png">
 <meta property="og:image" content="http://pnz676ria.bkt.clouddn.com/blog006busuanzi.png">
 <meta property="og:image" content="http://pnz676ria.bkt.clouddn.com/blog005cnzz.png">
-<meta property="og:updated_time" content="2019-03-19T01:39:55.045Z">
+<meta property="og:updated_time" content="2019-03-19T01:41:21.933Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="【配置博客】02next和yilia主题下添加访客功能">
 <meta name="twitter:description" content="在yilia主题下，添加显示访问量的功能。该功能可以在博客的底部看到自己博客访问量以及访客量。有以下两种方法。">
-<meta name="twitter:image" content="http://pnz676ria.bkt.clouddn.com/blog002url.png">
+<meta name="twitter:image" content="http://pnz676ria.bkt.clouddn.com/blog001zncc.png">
 
 
 
@@ -421,7 +422,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-03-19 09:39:55" itemprop="dateModified" datetime="2019-03-19T09:39:55+08:00">2019-03-19</time>
+                <time title="修改时间：2019-03-19 09:41:21" itemprop="dateModified" datetime="2019-03-19T09:41:21+08:00">2019-03-19</time>
               
             
           </span>
@@ -471,7 +472,7 @@
 <h1 id="yilia主题下添加访问量"><a href="#yilia主题下添加访问量" class="headerlink" title="yilia主题下添加访问量"></a>yilia主题下添加访问量</h1><h2 id="不蒜子添加访问量-1"><a href="#不蒜子添加访问量-1" class="headerlink" title="不蒜子添加访问量"></a>不蒜子添加访问量</h2><p>在主题目录下路径<code>/layout/_partial/</code>的文件<strong>footer.ejs</strong>中，在最末尾添加代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script async src=&quot;//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure></p>
 <h3 id="显示站点总访问量、总访客"><a href="#显示站点总访问量、总访客" class="headerlink" title="显示站点总访问量、总访客"></a>显示站点总访问量、总访客</h3><p>同样在主题目录下路径<code>/layout/_partial/</code>的文件<strong>footer.ejs</strong>中，在代码<code>&lt;/footer&gt;</code>的上一行，添加代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class=&quot;count-span&quot;&gt;</span><br><span class="line">	&lt;span id=&quot;busuanzi_container_site_pv&quot;&gt;</span><br><span class="line">		总访问量：&lt;span id=&quot;busuanzi_value_site_pv&quot;&gt;&lt;/span&gt;|</span><br><span class="line">	&lt;/span&gt;</span><br><span class="line">	&lt;span id=&quot;busuanzi_container_site_uv&quot;&gt;</span><br><span class="line">		总访客：&lt;span id=&quot;busuanzi_value_site_uv&quot;&gt;&lt;/span&gt;</span><br><span class="line">	&lt;/span&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure></p>
 <h3 id="显示单页面访问量"><a href="#显示单页面访问量" class="headerlink" title="显示单页面访问量"></a>显示单页面访问量</h3><p>在主题目录下路径<code>layout/_partial/</code>的文件<strong>article.ejs</strong>中添加代码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class=&quot;foot-left&quot;&gt;</span><br><span class="line">	&lt;span id=&quot;busuanzi_container_page_pv&quot;&gt;</span><br><span class="line">		本文阅读量&lt;span id=&quot;busuanzi_value_site_uv&quot;&gt;&lt;/span&gt;次</span><br><span class="line">	&lt;/span&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure></p>
-<h2 id="CNZZ添加博客访问量"><a href="#CNZZ添加博客访问量" class="headerlink" title="CNZZ添加博客访问量"></a>CNZZ添加博客访问量</h2><h3 id="进入站点统计页面"><a href="#进入站点统计页面" class="headerlink" title="进入站点统计页面"></a>进入站点统计页面</h3><p>![cnzz]<a href="http://pnz676ria.bkt.clouddn.com/blog001zncc.png" target="_blank" rel="noopener">http://pnz676ria.bkt.clouddn.com/blog001zncc.png</a></p>
+<h2 id="CNZZ添加博客访问量"><a href="#CNZZ添加博客访问量" class="headerlink" title="CNZZ添加博客访问量"></a>CNZZ添加博客访问量</h2><h3 id="进入站点统计页面"><a href="#进入站点统计页面" class="headerlink" title="进入站点统计页面"></a>进入站点统计页面</h3><p><img src="http://pnz676ria.bkt.clouddn.com/blog001zncc.png" alt="cnzz"></p>
 <h3 id="输入自己的网络地址"><a href="#输入自己的网络地址" class="headerlink" title="输入自己的网络地址"></a>输入自己的网络地址</h3><p><img src="http://pnz676ria.bkt.clouddn.com/blog002url.png" alt="url"></p>
 <h3 id="复制这段代码"><a href="#复制这段代码" class="headerlink" title="复制这段代码"></a>复制这段代码</h3><p><img src="http://pnz676ria.bkt.clouddn.com/blog003copy.png" alt="copy"></p>
 <h3 id="粘贴代码"><a href="#粘贴代码" class="headerlink" title="粘贴代码"></a>粘贴代码</h3><p>将代码复制到主题路径下的<code>/layout/_partial/</code>的文件<strong>footer</strong></p>
