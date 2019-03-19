@@ -130,7 +130,7 @@
 <meta property="og:site_name" content="zsqbigbig">
 <meta property="og:description" content="数组是最基本的集合。对于数组的排序">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-03-19T12:50:04.840Z">
+<meta property="og:updated_time" content="2019-03-19T15:27:00.366Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="【Java】06数组及排序">
 <meta name="twitter:description" content="数组是最基本的集合。对于数组的排序">
@@ -411,7 +411,7 @@
                 
               
 
-              <time title="创建时间：2019-03-19 19:25:57 / 修改时间：20:50:04" itemprop="dateCreated datePublished" datetime="2019-03-19T19:25:57+08:00">2019-03-19</time>
+              <time title="创建时间：2019-03-19 19:25:57 / 修改时间：23:27:00" itemprop="dateCreated datePublished" datetime="2019-03-19T19:25:57+08:00">2019-03-19</time>
             
 
             
@@ -492,108 +492,12 @@
 <h1 id="排序"><a href="#排序" class="headerlink" title="排序"></a>排序</h1><blockquote>
 <p>最经典，最简单的一个排序算法。<br>冒泡：水中大的气泡比小的气泡上升的快。</p>
 </blockquote>
-<h2 id="选择排序"><a href="#选择排序" class="headerlink" title="选择排序"></a>选择排序</h2><table>
-<thead>
-<tr>
-<th style="text-align:center">31</th>
-<th style="text-align:center">2</th>
-<th style="text-align:center">55</th>
-<th style="text-align:center">44</th>
-<th style="text-align:center">25</th>
-<th style="text-align:center">76</th>
-<th style="text-align:center">45</th>
-<th style="text-align:center">90</th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">90</td>
-<td style="text-align:center">2</td>
-<td style="text-align:center">55</td>
-<td style="text-align:center">44</td>
-<td style="text-align:center">25</td>
-<td style="text-align:center">76</td>
-<td style="text-align:center">45</td>
-<td style="text-align:center">31</td>
-<td>90最大</td>
-<td>比较了7此次</td>
-</tr>
-<tr>
-<td style="text-align:center">90</td>
-<td style="text-align:center">76</td>
-<td style="text-align:center">55</td>
-<td style="text-align:center">44</td>
-<td style="text-align:center">25</td>
-<td style="text-align:center">2</td>
-<td style="text-align:center">45</td>
-<td style="text-align:center">31</td>
-<td>76最大</td>
-<td>比较了6此次</td>
-</tr>
-<tr>
-<td style="text-align:center">90</td>
-<td style="text-align:center">76</td>
-<td style="text-align:center">55</td>
-<td style="text-align:center">44</td>
-<td style="text-align:center">25</td>
-<td style="text-align:center">2</td>
-<td style="text-align:center">45</td>
-<td style="text-align:center">31</td>
-<td>55最大</td>
-<td>比较了5此次</td>
-</tr>
-<tr>
-<td style="text-align:center">90</td>
-<td style="text-align:center">76</td>
-<td style="text-align:center">55</td>
-<td style="text-align:center">45</td>
-<td style="text-align:center">25</td>
-<td style="text-align:center">2</td>
-<td style="text-align:center">44</td>
-<td style="text-align:center">31</td>
-<td>45最大</td>
-<td>比较了4此次</td>
-</tr>
-<tr>
-<td style="text-align:center">90</td>
-<td style="text-align:center">76</td>
-<td style="text-align:center">55</td>
-<td style="text-align:center">45</td>
-<td style="text-align:center">44</td>
-<td style="text-align:center">2</td>
-<td style="text-align:center">25</td>
-<td style="text-align:center">31</td>
-<td>44最大</td>
-<td>比较了3此次</td>
-</tr>
-<tr>
-<td style="text-align:center">90</td>
-<td style="text-align:center">76</td>
-<td style="text-align:center">55</td>
-<td style="text-align:center">45</td>
-<td style="text-align:center">44</td>
-<td style="text-align:center">31</td>
-<td style="text-align:center">25</td>
-<td style="text-align:center">2</td>
-<td>31最大</td>
-<td>比较了2此次</td>
-</tr>
-<tr>
-<td style="text-align:center">90</td>
-<td style="text-align:center">76</td>
-<td style="text-align:center">55</td>
-<td style="text-align:center">45</td>
-<td style="text-align:center">44</td>
-<td style="text-align:center">31</td>
-<td style="text-align:center">25</td>
-<td style="text-align:center">2</td>
-<td>25最大</td>
-<td>比较次1此次</td>
-</tr>
-</tbody>
-</table>
+<h2 id="选择排序"><a href="#选择排序" class="headerlink" title="选择排序"></a>选择排序</h2><blockquote>
+<p>使用降序，对如下输入进行操作。每次选出数组中最大的值，将这一数字与前面的数字互换。<br>|31|2|55|44|25|76|45|90|||<br>|:——:|:——:|:——:|:——:|:——:|:——:|:——:|:——:|——|——|<br>|90|2|55|44|25|76|45|31|90最大|比较了7此次|<br>|90|76|55|44|25|2|45|31|76最大|比较了6此次|<br>|90|76|55|44|25|2|45|31|55最大|比较了5此次|<br>|90|76|55|45|25|2|44|31|45最大|比较了4此次|<br>|90|76|55|45|44|2|25|31|44最大|比较了3此次|<br>|90|76|55|45|44|31|25|2|31最大|比较了2此次|<br>|90|76|55|45|44|31|25|2|25最大|比较次1此次|<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span>[] array = &#123;</span><br><span class="line">	<span class="number">31</span>,<span class="number">2</span>,<span class="number">55</span>,<span class="number">44</span>,<span class="number">25</span>,<span class="number">76</span>,<span class="number">45</span>,<span class="number">90</span></span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>; i&lt;array.length-<span class="number">1</span>; i++)&#123;</span><br><span class="line">	<span class="keyword">int</span> temp=array[i];</span><br><span class="line">	<span class="keyword">int</span> flag=i;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> j=i+<span class="number">1</span>; j&lt;array.length; j++)&#123;</span><br><span class="line">		<span class="keyword">if</span>(temp&lt;array[j])&#123;</span><br><span class="line">			temp=array[j];</span><br><span class="line">		flag=j;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	array[flag]=array[i];</span><br><span class="line">	array[i]=temp;</span><br><span class="line">&#125;</span><br><span class="line">System.out.println(<span class="string">"从大到小排序"</span>);</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">int</span> i : array) &#123;</span><br><span class="line">	System.out.println(i);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+</blockquote>
+<h2 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h2><blockquote>
+<p>这个数组有8个数值，则需进行<code>8*(8-1)=56</code>次比较，得出降序的数组。<br>|31|2|55|44|25|76|45|90|<br>|:——:|:——:|:——:|:——:|:——:|:——:|:——:|:——:|<br>|31|55|44|25|76|45|90|2|<br>|55|44|31|76|45|90|25|2|<br>|55|44|76|45|90|31|25|2|<br>|55|76|45|90|44|31|25|2|<br>|76|55|90|45|44|31|25|2|<br>|76|90|55|45|44|31|25|2|<br>|90|76|55|45|44|31|25|2|<br>|90|76|55|45|44|31|25|2|<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">	<span class="comment">// 冒泡排序int[]</span></span><br><span class="line">	<span class="keyword">int</span>[] array = &#123;</span><br><span class="line">		<span class="number">31</span>,<span class="number">2</span>,<span class="number">55</span>,<span class="number">44</span>,<span class="number">25</span>,<span class="number">76</span>,<span class="number">45</span>,<span class="number">90</span></span><br><span class="line">	&#125;;</span><br><span class="line">	array = sort( array );</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i : array) &#123;</span><br><span class="line">		System.out.print(i+<span class="string">"\t"</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">static</span> <span class="keyword">int</span>[] sort( <span class="keyword">int</span>[] arr )&#123;</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; arr.length; i++) &#123;</span><br><span class="line">		<span class="keyword">for</span> (<span class="keyword">int</span> j = <span class="number">0</span>; j &lt; arr.length-<span class="number">1</span>; j++) &#123;</span><br><span class="line">			<span class="keyword">if</span>( arr[j]&lt;arr[j+<span class="number">1</span>] )&#123;</span><br><span class="line">				<span class="keyword">int</span> temp;</span><br><span class="line">				temp=arr[j];</span><br><span class="line">				arr[j]=arr[j+<span class="number">1</span>];</span><br><span class="line">				arr[j+<span class="number">1</span>]=temp;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> arr;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+</blockquote>
 
       
     </div>
@@ -875,7 +779,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#数组"><span class="nav-number">1.</span> <span class="nav-text">数组</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#新建数组"><span class="nav-number">1.1.</span> <span class="nav-text">新建数组</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#方式1"><span class="nav-number">1.1.1.</span> <span class="nav-text">方式1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#方式2"><span class="nav-number">1.1.2.</span> <span class="nav-text">方式2</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数组的遍历"><span class="nav-number">1.2.</span> <span class="nav-text">数组的遍历</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#案例"><span class="nav-number">1.3.</span> <span class="nav-text">案例</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#二维数组"><span class="nav-number">2.</span> <span class="nav-text">二维数组</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#新建二维数组"><span class="nav-number">2.1.</span> <span class="nav-text">新建二维数组</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#方式1-1"><span class="nav-number">2.1.1.</span> <span class="nav-text">方式1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#方式2-1"><span class="nav-number">2.1.2.</span> <span class="nav-text">方式2</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二维数组以成为多维数组"><span class="nav-number">2.2.</span> <span class="nav-text">二维数组以成为多维数组</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#排序"><span class="nav-number">3.</span> <span class="nav-text">排序</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#选择排序"><span class="nav-number">3.1.</span> <span class="nav-text">选择排序</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#数组"><span class="nav-number">1.</span> <span class="nav-text">数组</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#新建数组"><span class="nav-number">1.1.</span> <span class="nav-text">新建数组</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#方式1"><span class="nav-number">1.1.1.</span> <span class="nav-text">方式1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#方式2"><span class="nav-number">1.1.2.</span> <span class="nav-text">方式2</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数组的遍历"><span class="nav-number">1.2.</span> <span class="nav-text">数组的遍历</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#案例"><span class="nav-number">1.3.</span> <span class="nav-text">案例</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#二维数组"><span class="nav-number">2.</span> <span class="nav-text">二维数组</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#新建二维数组"><span class="nav-number">2.1.</span> <span class="nav-text">新建二维数组</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#方式1-1"><span class="nav-number">2.1.1.</span> <span class="nav-text">方式1</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#方式2-1"><span class="nav-number">2.1.2.</span> <span class="nav-text">方式2</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#二维数组以成为多维数组"><span class="nav-number">2.2.</span> <span class="nav-text">二维数组以成为多维数组</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#排序"><span class="nav-number">3.</span> <span class="nav-text">排序</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#选择排序"><span class="nav-number">3.1.</span> <span class="nav-text">选择排序</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#冒泡排序"><span class="nav-number">3.2.</span> <span class="nav-text">冒泡排序</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -918,7 +822,7 @@
 <!-- / 网站底部字数统计 -->
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count"><br> 博客全站共<b><font color="gray">10.7k</font></b>字</span>
+  <span class="post-count"><br> 博客全站共<b><font color="gray">11k</font></b>字</span>
 </div>
         
 <div class="busuanzi-count">
