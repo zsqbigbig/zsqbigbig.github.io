@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>zsqbigbig</title>
+  
+  <subtitle>zsqbigbig</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-03-19T14:01:25.793Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>zsqbigbig</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>【配置博客】04next主题配置操作</title>
+    <link href="http://yoursite.com/2019/03/19/Hexo_Blog/Hexo_Blog_04/"/>
+    <id>http://yoursite.com/2019/03/19/Hexo_Blog/Hexo_Blog_04/</id>
+    <published>2019-03-19T13:52:42.000Z</published>
+    <updated>2019-03-19T14:01:25.793Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;添加rss功能&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+    
+    </summary>
+    
+    
+      <category term="Blog" scheme="http://yoursite.com/tags/Blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Java】06数组及排序</title>
+    <link href="http://yoursite.com/2019/03/19/Java_Basic/Java_Basic_06/"/>
+    <id>http://yoursite.com/2019/03/19/Java_Basic/Java_Basic_06/</id>
+    <published>2019-03-19T11:25:57.381Z</published>
+    <updated>2019-03-19T12:50:04.840Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;数组是最基本的&lt;strong&gt;集合&lt;/strong&gt;。&lt;br&gt;对于数组的排序&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Computer】修改计算机显示时间格式</title>
+    <link href="http://yoursite.com/2019/03/19/Computer/Computer_01/"/>
+    <id>http://yoursite.com/2019/03/19/Computer/Computer_01/</id>
+    <published>2019-03-19T01:04:26.000Z</published>
+    <updated>2019-03-19T01:37:21.405Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;将计算机右下角所显示时间的格式更改为HH:mm:ss yyyy:M:d,dddd&lt;br&gt;如现在的时间时：&lt;br&gt;09:27:18&lt;br&gt;2019/3/19,星期二&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+    
+    </summary>
+    
+    
+      <category term="Computer" scheme="http://yoursite.com/tags/Computer/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【配置博客】03next主题配置操作</title>
+    <link href="http://yoursite.com/2019/03/18/Hexo_Blog/Hexo_Blog_03/"/>
+    <id>http://yoursite.com/2019/03/18/Hexo_Blog/Hexo_Blog_03/</id>
+    <published>2019-03-18T00:29:46.000Z</published>
+    <updated>2019-03-19T00:57:50.582Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;博客中所有的功能都是对next主题的操作。下面汇集了共17种主要为界面显示相关的配置操作，但是有两种做不到。因为我下的next是最新版本，而百度到的配置操作都是对旧版本的操作，很让人头疼，以后有空再搞没有完成的吧。&lt;br&gt;其中&lt;code&gt;1,3,4,5,8,11,13,17&lt;/code&gt;这几个配置操作，我认为是很不错的。&lt;code&gt;3，4，5，17&lt;/code&gt;对于博客界面的配置，让我感觉这几种配置很有科技含量，可以优先考虑这几个配置，对其操作。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+    
+    </summary>
+    
+    
+      <category term="Blog" scheme="http://yoursite.com/tags/Blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【配置博客】02next和yilia主题下添加访客功能</title>
+    <link href="http://yoursite.com/2019/03/17/Hexo_Blog/Hexo_Blog_02/"/>
+    <id>http://yoursite.com/2019/03/17/Hexo_Blog/Hexo_Blog_02/</id>
+    <published>2019-03-17T12:20:50.000Z</published>
+    <updated>2019-03-19T01:41:21.933Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;在yilia主题下，添加显示访问量的功能。该功能可以在博客的底部看到自己博客访问量以及访客量。&lt;br&gt;有以下两种方法。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+    
+    </summary>
+    
+    
+      <category term="Blog" scheme="http://yoursite.com/tags/Blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Java】05方法（函数）</title>
+    <link href="http://yoursite.com/2019/03/17/Java_Basic/Java_Basic_05/"/>
+    <id>http://yoursite.com/2019/03/17/Java_Basic/Java_Basic_05/</id>
+    <published>2019-03-17T07:50:13.000Z</published>
+    <updated>2019-03-19T01:14:52.334Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;方法的类型及定义。方法分为&lt;strong&gt;有返回类型的方法&lt;/strong&gt;和&lt;strong&gt;构造方法&lt;/strong&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Java】04流程控制</title>
+    <link href="http://yoursite.com/2019/03/17/Java_Basic/Java_Basic_04/"/>
+    <id>http://yoursite.com/2019/03/17/Java_Basic/Java_Basic_04/</id>
+    <published>2019-03-17T05:05:59.000Z</published>
+    <updated>2019-03-19T01:02:35.318Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;流程控制有两种结构：&lt;strong&gt;分支结构&lt;/strong&gt;和&lt;strong&gt;循环结构&lt;/strong&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Java】03数据类型及运算符</title>
+    <link href="http://yoursite.com/2019/03/17/Java_Basic/Java_Basic_03/"/>
+    <id>http://yoursite.com/2019/03/17/Java_Basic/Java_Basic_03/</id>
+    <published>2019-03-17T01:04:00.000Z</published>
+    <updated>2019-03-19T01:15:11.670Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;数据类型有：int,float, double, boolean, String, Data等很多种。&lt;br&gt;运算符有：+，-，*，/,++,--,&amp;lt;,&gt;……等很多种。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Python爬虫】01Requests库</title>
+    <link href="http://yoursite.com/2019/03/16/Python_Reptile/Python_Reptile_01/"/>
+    <id>http://yoursite.com/2019/03/16/Python_Reptile/Python_Reptile_01/</id>
+    <published>2019-03-16T14:54:29.000Z</published>
+    <updated>2019-03-19T01:15:23.494Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;爬虫，用来爬取网络的数据或资源。&lt;br&gt;这一篇博客是爬虫的第一篇，requests库的讲解。这个博客是在学习requests库的时候写的，就当是做笔记了。下面的记录并不是特别详细，但很多重要的东西标注了上去，算是有选择性地学习吧。&lt;br&gt;还有一个对于我而言很重要的功能，可以用来刷我的博客的阅读量。我现在用的是别人的代码，是一些简单的代码，但是用起来很麻烦。还有一些复杂的代码，用起来很简单，但是需要对一部分代码修改操作。现在还不会，学的差不多了，就可以自己刷阅读量了。。。阅读量高了自己看着也开心点，有那么一点点成就感。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+    
+    </summary>
+    
+    
+      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Java】02注释</title>
+    <link href="http://yoursite.com/2019/03/16/Java_Basic/Java_Basic_02/"/>
+    <id>http://yoursite.com/2019/03/16/Java_Basic/Java_Basic_02/</id>
+    <published>2019-03-16T08:34:35.000Z</published>
+    <updated>2019-03-19T01:01:32.838Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;注释很简单，但是很重要。利用好注释，可以指令生成文档。很有用。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Java】01安装配置JDK</title>
+    <link href="http://yoursite.com/2019/03/16/Java_Basic/Java_Basic_01/"/>
+    <id>http://yoursite.com/2019/03/16/Java_Basic/Java_Basic_01/</id>
+    <published>2019-03-16T07:49:00.000Z</published>
+    <updated>2019-03-19T01:15:38.151Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;JDK是 Java 语言的软件开发工具包，主要用于移动设备、嵌入式设备上的java应用程序。JDK是整个java开发的核心，它包含了JAVA的运行环境（JVM+Java系统类库）和JAVA工具。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Python基础】02字符串</title>
+    <link href="http://yoursite.com/2019/03/15/Python_Basic/Python_Basic_02/"/>
+    <id>http://yoursite.com/2019/03/15/Python_Basic/Python_Basic_02/</id>
+    <published>2019-03-15T14:45:52.000Z</published>
+    <updated>2019-03-19T01:11:48.944Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;对于字符串的操作及方法。&lt;br&gt;对于字符串的某些操作，及方法也可以应用到其他的数据类型中。比如&lt;code&gt;切片&lt;/code&gt;，&lt;code&gt;+&lt;/code&gt;，&lt;code&gt;len(ste)&lt;/code&gt;等，可应用与其他的数据类型中。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+    
+    </summary>
+    
+    
+      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Python基础】01数据类型</title>
+    <link href="http://yoursite.com/2019/03/12/Python_Basic/Python_Basic_01/"/>
+    <id>http://yoursite.com/2019/03/12/Python_Basic/Python_Basic_01/</id>
+    <published>2019-03-12T04:04:49.000Z</published>
+    <updated>2019-03-19T01:53:43.325Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;数据类型&lt;/strong&gt;：&lt;font color=&quot;gray&quot;&gt;数字(Number)&lt;/font&gt;、&lt;font color=&quot;gray&quot;&gt;字符串(String)&lt;/font&gt;、&lt;font color=&quot;gray&quot;&gt;列表(List)&lt;/font&gt;、&lt;font color=&quot;gray&quot;&gt;元组(Tuple)&lt;/font&gt;、&lt;font color=&quot;gray&quot;&gt;集合(Set)&lt;/font&gt;、&lt;font color=&quot;gray&quot;&gt;字典(Dictionary)&lt;/font&gt;六种数据类型。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+    
+    </summary>
+    
+    
+      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【配置博客】01Windows操作系统搭建博客</title>
+    <link href="http://yoursite.com/2019/03/11/Hexo_Blog/Hexo_Blog_01/"/>
+    <id>http://yoursite.com/2019/03/11/Hexo_Blog/Hexo_Blog_01/</id>
+    <published>2019-03-11T00:34:35.000Z</published>
+    <updated>2019-03-19T00:44:30.992Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;搭建及部署博客。其中的过程很麻烦，但是按照步骤一步一步的做，其实很容易就能做到。我的系统是Win10,64位的操作系统。在我搭建博客的时候，看的一个MacOS操作系统搭建的博客。其中虽然差别不大，但是也让我走了很多弯路。如果过程顺利，最多半个小时就可以搭建好博客。以下的过程是在Win10操作系统下进行的，如果大家是Windows操作系统，可以参考以下步骤搭建博客。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+    
+    </summary>
+    
+    
+      <category term="Blog" scheme="http://yoursite.com/tags/Blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Markdown】01基础语法</title>
+    <link href="http://yoursite.com/2019/03/05/Markdown/Markdown01/"/>
+    <id>http://yoursite.com/2019/03/05/Markdown/Markdown01/</id>
+    <published>2019-03-05T07:43:17.000Z</published>
+    <updated>2019-03-19T01:50:59.925Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;Markdown的语法主要用于写博客，也有人会用Markdown写简历。还有没有其他的我也不知道。Markdown是一个很简单的语法，类似于HTML，都是轻量型标记语言。会一点HTML再来看Markdown，因为Markdown中也会用到HTML的标签。比如说：&lt;code&gt;&amp;lt;/br&amp;gt;&lt;/code&gt;,&lt;code&gt;&amp;lt;font&amp;gt;&amp;lt;/font&amp;gt;&lt;/code&gt;,&lt;code&gt;&amp;lt;center&amp;gt;&amp;lt;/center&amp;gt;&lt;/code&gt;等。抽空花一点时间看一下语法，很快就能掌握。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+    
+    </summary>
+    
+    
+      <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
+    
+  </entry>
+  
+</feed>
