@@ -122,18 +122,18 @@
 
 
 
-  <meta name="description" content="接口(Interface)概念属于特殊的抽象类只能包含静态常量属性和抽象方法。 实现（继承）接口接口弥补了单一继承的缺点 注意【False】接口能不能用final声明    接口就是为了继承时使用的，使用final无法在继承。【False】接口能不能继承抽象类    抽象类可以包含非抽象方法，接口无法包含非抽象方法。所以，接口不能继承抽象类。【】接口能不能继承接口注意，可以多重实现（继承） 多态生">
+  <meta name="description" content="接口、多态">
 <meta name="keywords" content="Java">
 <meta property="og:type" content="article">
 <meta property="og:title" content="java">
 <meta property="og:url" content="http://yoursite.com/Java_Basic/Java_Basic_08/index.html">
 <meta property="og:site_name" content="zsqbigbig">
-<meta property="og:description" content="接口(Interface)概念属于特殊的抽象类只能包含静态常量属性和抽象方法。 实现（继承）接口接口弥补了单一继承的缺点 注意【False】接口能不能用final声明    接口就是为了继承时使用的，使用final无法在继承。【False】接口能不能继承抽象类    抽象类可以包含非抽象方法，接口无法包含非抽象方法。所以，接口不能继承抽象类。【】接口能不能继承接口注意，可以多重实现（继承） 多态生">
+<meta property="og:description" content="接口、多态">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-03-24T07:49:04.598Z">
+<meta property="og:updated_time" content="2019-03-30T14:56:19.772Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="java">
-<meta name="twitter:description" content="接口(Interface)概念属于特殊的抽象类只能包含静态常量属性和抽象方法。 实现（继承）接口接口弥补了单一继承的缺点 注意【False】接口能不能用final声明    接口就是为了继承时使用的，使用final无法在继承。【False】接口能不能继承抽象类    抽象类可以包含非抽象方法，接口无法包含非抽象方法。所以，接口不能继承抽象类。【】接口能不能继承接口注意，可以多重实现（继承） 多态生">
+<meta name="twitter:description" content="接口、多态">
 
 
 
@@ -411,12 +411,24 @@
                 
               
 
-              <time title="创建时间：2019-03-24 14:08:25 / 修改时间：15:49:04" itemprop="dateCreated datePublished" datetime="2019-03-24T14:08:25+08:00">2019-03-24</time>
+              <time title="创建时间：2019-03-24 14:08:25" itemprop="dateCreated datePublished" datetime="2019-03-24T14:08:25+08:00">2019-03-24</time>
             
 
             
               
 
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-03-30 22:56:19" itemprop="dateModified" datetime="2019-03-30T22:56:19+08:00">2019-03-30</time>
               
             
           </span>
@@ -470,7 +482,10 @@
       
 
       
-        <h1 id="接口-Interface"><a href="#接口-Interface" class="headerlink" title="接口(Interface)"></a>接口(Interface)</h1><h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><p>属于特殊的抽象类<br>只能包含静态常量属性和抽象方法。</p>
+        <blockquote>
+<p>接口、多态<br><a id="more"></a></p>
+</blockquote>
+<h1 id="接口-Interface"><a href="#接口-Interface" class="headerlink" title="接口(Interface)"></a>接口(Interface)</h1><h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><p>属于特殊的抽象类<br>只能包含静态常量属性和抽象方法。</p>
 <h2 id="实现（继承）接口"><a href="#实现（继承）接口" class="headerlink" title="实现（继承）接口"></a>实现（继承）接口</h2><p>接口弥补了单一继承的缺点</p>
 <h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><p>【False】接口能不能用final声明<br>    接口就是为了继承时使用的，使用final无法在继承。<br>【False】接口能不能继承抽象类<br>    抽象类可以包含非抽象方法，接口无法包含非抽象方法。所以，接口不能继承抽象类。<br>【】接口能不能继承接口<br>注意，可以多重实现（继承）</p>
 <h1 id="多态"><a href="#多态" class="headerlink" title="多态"></a>多态</h1><p>生活中<br>    形式：水，蒸汽，冰块都是H2O<br>    优点：一种东西，多种形态。冰雕，喝，蒸馒头，方便不同需求的传输。<br>程序中<br>    形式：使用接口，进行层级分离和扩展，实现多态。<br>    优点：可扩展性增强，耦合度降低。<br>情景案例：<br>一家新公司，写程序，需要考虑成本。使用免费的Mysql数据库。后来公司发展壮大，需要使用其他代码不变，使用Oracle<br>方案一：不使用接口，不使用多态。<br>缺点，一旦更换数据库，只要是调用userDao的地方，全都作废。可扩展性差。</p>
@@ -538,6 +553,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/Computer/Computer_02/" rel="prev" title="【Mobile Phone】装裱手机零件">
+                【Mobile Phone】装裱手机零件 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
