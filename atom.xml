@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-30T15:03:55.276Z</updated>
+  <updated>2019-04-06T15:16:24.944Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,93 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Online Judge 01</title>
+    <link href="http://yoursite.com/Online_Judge/Online_Judge_01/"/>
+    <id>http://yoursite.com/Online_Judge/Online_Judge_01/</id>
+    <published>2019-04-05T12:00:00.000Z</published>
+    <updated>2019-04-06T15:16:24.944Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;c++ OJ 学校4月11日有一个ACM的校赛，先参加试试，先做题练练吧。本来就菜，希望做几天题，能不被虐吧。毕竟我已经大三了，肯定会有一大堆学弟学妹们参加。加油吧，不要当一个菜鸡。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;http://poj.org/problem?id=1000&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1000 A+B Problem&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://poj.org/problem?id=1003&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1003 Hangover&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://poj.org/problem?id=1004&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1004 Financial Management&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://poj.org/problem?id=1005&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1005 I Think I Need a Houseboat&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://poj.org/problem?id=1006&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1006 Biorhythms&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://poj.org/problem?id=1007&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1007 DNA Soring&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="Online Judge" scheme="http://yoursite.com/tags/Online-Judge/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【java】09常用类</title>
+    <link href="http://yoursite.com/Java_Basic/Java_Basic_09/"/>
+    <id>http://yoursite.com/Java_Basic/Java_Basic_09/</id>
+    <published>2019-04-02T12:19:35.000Z</published>
+    <updated>2019-04-06T15:18:39.092Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;对很多常用类进行了总结。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Struts2】02</title>
+    <link href="http://yoursite.com/Java_ssm/Java_Struts_02/"/>
+    <id>http://yoursite.com/Java_ssm/Java_Struts_02/</id>
+    <published>2019-03-31T07:55:04.000Z</published>
+    <updated>2019-03-31T11:21:37.194Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;Struts2框架&lt;br&gt;1.通配符&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+    
+      <category term="Strust2" scheme="http://yoursite.com/tags/Strust2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Struts2】01</title>
+    <link href="http://yoursite.com/Java_ssm/Java_Struts_01/"/>
+    <id>http://yoursite.com/Java_ssm/Java_Struts_01/</id>
+    <published>2019-03-31T02:15:43.000Z</published>
+    <updated>2019-03-31T09:20:34.372Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;Struts2框架&lt;br&gt;使用Struts2框架是的准备工作，大概有以下四点&lt;br&gt;1.MVC的基本概念&lt;br&gt;2.Struts的工作原理&lt;br&gt;3.Struts的开发准备&lt;br&gt;4.Struts的开发实力&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+    
+      <category term="Strust2" scheme="http://yoursite.com/tags/Strust2/"/>
+    
+  </entry>
   
   <entry>
     <title>【Mobile Phone】装裱手机零件</title>
@@ -38,11 +125,11 @@
   </entry>
   
   <entry>
-    <title>java</title>
+    <title>【java】多态和接口</title>
     <link href="http://yoursite.com/Java_Basic/Java_Basic_08/"/>
     <id>http://yoursite.com/Java_Basic/Java_Basic_08/</id>
     <published>2019-03-24T06:08:25.000Z</published>
-    <updated>2019-03-30T14:56:19.772Z</updated>
+    <updated>2019-04-06T15:18:48.707Z</updated>
     
     <summary type="html">
     
@@ -344,48 +431,6 @@
     
     
       <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【配置博客】01Windows操作系统搭建博客</title>
-    <link href="http://yoursite.com/Hexo_Blog/Hexo_Blog_01/"/>
-    <id>http://yoursite.com/Hexo_Blog/Hexo_Blog_01/</id>
-    <published>2019-03-11T00:34:35.000Z</published>
-    <updated>2019-03-19T00:44:30.992Z</updated>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;搭建及部署博客。其中的过程很麻烦，但是按照步骤一步一步的做，其实很容易就能做到。我的系统是Win10,64位的操作系统。在我搭建博客的时候，看的一个MacOS操作系统搭建的博客。其中虽然差别不大，但是也让我走了很多弯路。如果过程顺利，最多半个小时就可以搭建好博客。以下的过程是在Win10操作系统下进行的，如果大家是Windows操作系统，可以参考以下步骤搭建博客。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;hr&gt;
-    
-    </summary>
-    
-    
-      <category term="Blog" scheme="http://yoursite.com/tags/Blog/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Markdown】01基础语法</title>
-    <link href="http://yoursite.com/Markdown/Markdown01/"/>
-    <id>http://yoursite.com/Markdown/Markdown01/</id>
-    <published>2019-03-05T07:43:17.000Z</published>
-    <updated>2019-03-19T01:50:59.925Z</updated>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;Markdown的语法主要用于写博客，也有人会用Markdown写简历。还有没有其他的我也不知道。Markdown是一个很简单的语法，类似于HTML，都是轻量型标记语言。会一点HTML再来看Markdown，因为Markdown中也会用到HTML的标签。比如说：&lt;code&gt;&amp;lt;/br&amp;gt;&lt;/code&gt;,&lt;code&gt;&amp;lt;font&amp;gt;&amp;lt;/font&amp;gt;&lt;/code&gt;,&lt;code&gt;&amp;lt;center&amp;gt;&amp;lt;/center&amp;gt;&lt;/code&gt;等。抽空花一点时间看一下语法，很快就能掌握。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;hr&gt;
-    
-    </summary>
-    
-    
-      <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
     
   </entry>
   

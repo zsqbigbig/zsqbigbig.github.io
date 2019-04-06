@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-CN">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<!-- 顶部加载条 -->
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+<style><!-- 修改加载条颜色 -->
+    .pace .pace-progress {
+        background: #1E92FB; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #1E92FB;    /*上边框颜色*/
+        border-left-color: #1E92FB;    /*左边框颜色*/
+    }
+</style>
+<!-- 顶部加载条 -->
+<meta name="theme-color" content="#222">
+
+
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2">
+
+<link rel="stylesheet" href="/css/main.css?v=7.0.1">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.0.1">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.0.1">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.0.1">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.0.1" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '7.0.1',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="c++ OJ 学校4月11日有一个ACM的校赛，先参加试试，先做题练练吧。本来就菜，希望做几天题，能不被虐吧。毕竟我已经大三了，肯定会有一大堆学弟学妹们参加。加油吧，不要当一个菜鸡。  1000 A+B Problem1003 Hangover1004 Financial Management1005 I Think I Need a Houseboat1006 Biorhythms1007 D">
+<meta name="keywords" content="Online Judge">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Online Judge 01">
+<meta property="og:url" content="http://yoursite.com/Online_Judge/Online_Judge_01/index.html">
+<meta property="og:site_name" content="zsqbigbig">
+<meta property="og:description" content="c++ OJ 学校4月11日有一个ACM的校赛，先参加试试，先做题练练吧。本来就菜，希望做几天题，能不被虐吧。毕竟我已经大三了，肯定会有一大堆学弟学妹们参加。加油吧，不要当一个菜鸡。  1000 A+B Problem1003 Hangover1004 Financial Management1005 I Think I Need a Houseboat1006 Biorhythms1007 D">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-04-06T15:16:24.944Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Online Judge 01">
+<meta name="twitter:description" content="c++ OJ 学校4月11日有一个ACM的校赛，先参加试试，先做题练练吧。本来就菜，希望做几天题，能不被虐吧。毕竟我已经大三了，肯定会有一大堆学弟学妹们参加。加油吧，不要当一个菜鸡。  1000 A+B Problem1003 Hangover1004 Financial Management1005 I Think I Need a Houseboat1006 Biorhythms1007 D">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="zsqbigbig" type="application/atom+xml">
+
+
+
+
+  <link rel="canonical" href="http://yoursite.com/Online_Judge/Online_Judge_01/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>Online Judge 01 | zsqbigbig</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <!-- Github corn --> <!--
+    <div class="headband">
+      <a href="https://zsqbigbig.github.io" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+    </div> -->
+    <!-- Github corn -->
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">zsqbigbig</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">zsqbigbig</p>
+      
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+  
+  
+  
+  
+
+  
+
+  <a href="https://github.com/zsqbigbig" class="github-corner" title="Follow me on GitHub" aria-label="Follow me on GitHub" rel="noopener" target="_blank"><svg width="80" height="80" viewbox="0 0 250 250" style="fill: #222; color: #fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"/><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"/><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"/></svg></a>
+
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/Online_Judge/Online_Judge_01/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="zsqbigbig">
+      <meta itemprop="description" content="zsqbigbig">
+      <meta itemprop="image" content="http://pnz676ria.bkt.clouddn.com/whitegril.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="zsqbigbig">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">Online Judge 01
+
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-04-05 20:00:00" itemprop="dateCreated datePublished" datetime="2019-04-05T20:00:00+08:00">2019-04-05</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-04-06 23:16:24" itemprop="dateModified" datetime="2019-04-06T23:16:24+08:00">2019-04-06</time>
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <span class="post-meta-item-text">评论数：</span>
+                <a href="/Online_Judge/Online_Judge_01/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/Online_Judge/Online_Judge_01/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="post-meta-item-icon">
+            <i class="fa fa-eye"></i>
+             阅读量： 
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+            </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <blockquote>
+<p>c++ OJ 学校4月11日有一个ACM的校赛，先参加试试，先做题练练吧。本来就菜，希望做几天题，能不被虐吧。毕竟我已经大三了，肯定会有一大堆学弟学妹们参加。加油吧，不要当一个菜鸡。</p>
+<blockquote>
+<p><a href="http://poj.org/problem?id=1000" target="_blank" rel="noopener">1000 A+B Problem</a><br><a href="http://poj.org/problem?id=1003" target="_blank" rel="noopener">1003 Hangover</a><br><a href="http://poj.org/problem?id=1004" target="_blank" rel="noopener">1004 Financial Management</a><br><a href="http://poj.org/problem?id=1005" target="_blank" rel="noopener">1005 I Think I Need a Houseboat</a><br><a href="http://poj.org/problem?id=1006" target="_blank" rel="noopener">1006 Biorhythms</a><br><a href="http://poj.org/problem?id=1007" target="_blank" rel="noopener">1007 DNA Soring</a></p>
+</blockquote>
+</blockquote>
+<a id="more"></a>
+<h1 id="1000-A-B-Problem"><a href="#1000-A-B-Problem" class="headerlink" title="[1000] A+B Problem"></a>[1000] A+B Problem</h1><p>代码如下：<br><figure class="highlight c"><figcaption><span>++</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> a, b;</span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; a &gt;&gt; b;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; a+b &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h1 id="1003-Hangover"><a href="#1003-Hangover" class="headerlink" title="[1003] Hangover"></a>[1003] Hangover</h1><figure class="highlight c"><figcaption><span>++</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">double</span> length;</span><br><span class="line">	<span class="keyword">while</span>( <span class="literal">true</span> )&#123;</span><br><span class="line">		<span class="built_in">cin</span> &gt;&gt; length;</span><br><span class="line">		<span class="keyword">double</span> sum = <span class="number">0</span>;</span><br><span class="line">		<span class="keyword">if</span>( length == <span class="number">0.00</span> )&#123;<span class="comment">//length为0，程序终止 </span></span><br><span class="line">			<span class="keyword">break</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">int</span> i;</span><br><span class="line">		<span class="keyword">for</span>( i=<span class="number">2</span>; ; i++ )&#123;<span class="comment">//计算所需要的卡片数量 </span></span><br><span class="line">			sum += <span class="number">1</span>/(i*<span class="number">1.0</span>);</span><br><span class="line">			<span class="keyword">if</span>( length &lt;= sum )&#123;</span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; (i<span class="number">-1</span>) &lt;&lt; <span class="string">" card(s)"</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	&#125;</span><br><span class="line">&#125; </span><br></pre></td></tr></table></figure>
+<h1 id="1004-Financial-Management"><a href="#1004-Financial-Management" class="headerlink" title="[1004] Financial Management"></a>[1004] Financial Management</h1><figure class="highlight c"><figcaption><span>++</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iomanip&gt; </span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">double</span> money[<span class="number">12</span>];<span class="comment">//存每个月的钱数 </span></span><br><span class="line">	<span class="keyword">double</span> sum = <span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>( <span class="keyword">int</span> i=<span class="number">0</span>; i&lt;<span class="number">12</span>; i++ )&#123;</span><br><span class="line">		<span class="built_in">cin</span> &gt;&gt; money[i];</span><br><span class="line">		sum += money[i];<span class="comment">//算存下的钱的总数 </span></span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; <span class="string">"$"</span> &lt;&lt;  fixed &lt;&lt; setprecision(<span class="number">2</span>) &lt;&lt; (sum/<span class="number">12</span>);<span class="comment">//输出平均值</span></span><br><span class="line">	<span class="comment">/*</span></span><br><span class="line"><span class="comment">	 * setprecision(n) 保留n为有效数字</span></span><br><span class="line"><span class="comment">	 * fixed &lt;&lt; setprecision(n) 保留n位小数</span></span><br><span class="line"><span class="comment">	 */</span> </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="1005-I-Think-I-Need-a-Houseboat"><a href="#1005-I-Think-I-Need-a-Houseboat" class="headerlink" title="[1005] I Think I Need a Houseboat"></a>[1005] I Think I Need a Houseboat</h1><figure class="highlight c"><figcaption><span>++</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">const</span> <span class="keyword">double</span> PI = <span class="number">3.14</span>;</span><br><span class="line">	<span class="keyword">double</span> x, y, n;<span class="comment">//x:x坐标；y:y坐标；n:循环次数。 </span></span><br><span class="line">	<span class="keyword">int</span> year;<span class="comment">//可以住多少年 </span></span><br><span class="line">	<span class="built_in">cin</span> &gt;&gt; n;</span><br><span class="line">	<span class="keyword">int</span> i = <span class="number">1</span>;</span><br><span class="line">	<span class="keyword">while</span>( i &lt;= n )&#123;<span class="comment">//循环n次 </span></span><br><span class="line">		<span class="built_in">cin</span> &gt;&gt; x &gt;&gt; y;</span><br><span class="line">		<span class="keyword">double</span> S = PI * ( x*x + y*y ) / <span class="number">2</span>;<span class="comment">//以x，y坐标为半径，计算面积。 </span></span><br><span class="line">		year = (<span class="keyword">int</span>)(S/<span class="number">50</span>) + <span class="number">1</span>;<span class="comment">//将计算结果转换为整型赋值给year </span></span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; <span class="string">"Property "</span> &lt;&lt; i &lt;&lt;<span class="string">": This property will begin eroding in year "</span> &lt;&lt; year &lt;&lt; <span class="string">"."</span> &lt;&lt; <span class="built_in">endl</span>; </span><br><span class="line">		i++;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; <span class="string">"END OF OUTPUT."</span>;</span><br><span class="line">&#125; </span><br></pre></td></tr></table></figure>
+<h1 id="1006-Biorhythms"><a href="#1006-Biorhythms" class="headerlink" title="[1006] Biorhythms"></a>[1006] Biorhythms</h1><p>代码如下：<br><figure class="highlight c"><figcaption><span>++</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> n1, n2, n3, day;<span class="comment">//要求输入的四个数据 </span></span><br><span class="line">	<span class="keyword">int</span> times = <span class="number">1</span>;<span class="comment">//Case 次数 </span></span><br><span class="line">	<span class="keyword">while</span>(<span class="literal">true</span>)&#123;</span><br><span class="line">		<span class="keyword">int</span> d1 = <span class="number">23</span>, d2 = <span class="number">28</span>, d3 = <span class="number">33</span>;<span class="comment">//三个属性巅峰循环天数 </span></span><br><span class="line">		<span class="built_in">cin</span> &gt;&gt; n1 &gt;&gt; n2 &gt;&gt; n3 &gt;&gt; day;</span><br><span class="line">		<span class="keyword">if</span>( n1 == n2 &amp;&amp; n2 == n3 &amp;&amp; n3 == day &amp;&amp; n1 == <span class="number">-1</span> )&#123;<span class="comment">//输入全为-1时，循环结束 </span></span><br><span class="line">			<span class="keyword">break</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">int</span> days;<span class="comment">//计算出的结果天数 </span></span><br><span class="line">		<span class="keyword">int</span> i = <span class="number">0</span>;<span class="comment">//计算天数的算式中，i++带入循环 </span></span><br><span class="line">		<span class="keyword">while</span>( <span class="literal">true</span> )&#123;</span><br><span class="line">			days = <span class="number">33</span>*i+n3%d3;<span class="comment">//计算天数的公式 </span></span><br><span class="line">			<span class="keyword">if</span>( (days%d1 == n1%d1) &amp;&amp; (days%d2 == n2%d2) &amp;&amp; (days &gt; <span class="number">0</span>) &amp;&amp; (days &gt; day) ) &#123;<span class="comment">//总天数符合题目要求，终止计算days的循环 </span></span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">			&#125;</span><br><span class="line">			i++;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; <span class="string">"Case "</span> &lt;&lt; times &lt;&lt; <span class="string">": the next triple peak occurs in "</span> &lt;&lt; days-day &lt;&lt; <span class="string">" days."</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">		times++;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h1 id="1007-DNA-Soring"><a href="#1007-DNA-Soring" class="headerlink" title="[1007] DNA Soring"></a>[1007] DNA Soring</h1><figure class="highlight c"><figcaption><span>++</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	<span class="keyword">int</span> length, amount;</span><br><span class="line">	<span class="built_in">cin</span> &gt;&gt; length &gt;&gt; amount;</span><br><span class="line">	<span class="keyword">char</span> DNA[<span class="number">110</span>][<span class="number">55</span>];<span class="comment">//DNA序列 </span></span><br><span class="line">	<span class="keyword">int</span> sum[<span class="number">110</span>]=&#123;<span class="number">0</span>&#125;;<span class="comment">//逆序差 </span></span><br><span class="line">	<span class="keyword">int</span> sequence[<span class="number">110</span>]=&#123;<span class="number">0</span>&#125;;<span class="comment">//升序存放逆序差 DNA序列 </span></span><br><span class="line">	<span class="keyword">for</span>( <span class="keyword">int</span> num = <span class="number">0</span>; num &lt; amount; num++ )&#123;</span><br><span class="line">		<span class="built_in">scanf</span>( <span class="string">"%s"</span>, &amp;DNA[num] );</span><br><span class="line">		getchar();</span><br><span class="line">	&#125; </span><br><span class="line">	<span class="keyword">for</span>( <span class="keyword">int</span> num = <span class="number">0</span>; num &lt; amount; num++ )&#123;</span><br><span class="line">		<span class="keyword">for</span>( <span class="keyword">int</span> i = <span class="number">0</span>; i &lt; length - <span class="number">1</span>; i++ ) &#123;</span><br><span class="line">			<span class="keyword">for</span>( <span class="keyword">int</span> j = i + <span class="number">1</span>; j &lt; length; j++ )&#123;</span><br><span class="line">				<span class="keyword">if</span>( DNA[num][i] &gt; DNA[num][j] )&#123;</span><br><span class="line">					sum[num]++;</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		sequence[num] = num;</span><br><span class="line">		<span class="keyword">if</span>( num != <span class="number">0</span> )&#123;</span><br><span class="line">			<span class="keyword">for</span>( <span class="keyword">int</span> i = num; i &gt; <span class="number">0</span>; i-- ) &#123; <span class="comment">//升序调整DNA序列，sequence数组。 </span></span><br><span class="line">				<span class="keyword">if</span>( sum[sequence[i]] &lt; sum[sequence[i<span class="number">-1</span>]] ) &#123;</span><br><span class="line">					<span class="keyword">int</span> temp;</span><br><span class="line">					temp = sequence[i];</span><br><span class="line">					sequence[i] = sequence[i<span class="number">-1</span>];</span><br><span class="line">					sequence[i<span class="number">-1</span>] = temp;</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span>( <span class="keyword">int</span> i = <span class="number">0</span>; i &lt; amount; i++ ) &#123;</span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; DNA[sequence[i]] &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><h2 id="保留n位有效数字，保留n位小数"><a href="#保留n位有效数字，保留n位小数" class="headerlink" title="保留n位有效数字，保留n位小数"></a>保留n位有效数字，保留n位小数</h2><blockquote>
+<p>题目 Financial Management</p>
+</blockquote>
+<p>该方法在manip库中。<br>1.setprecision(n)保留n位有效数字<br>2.fixed &lt;&lt; setprecision(n) 保留n位小数</p>
+<p>用法如下：<br><figure class="highlight c"><figcaption><span>++</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;manip&gt;	//使用此方法，需要添加的库文件。</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">double</span> d = <span class="number">3.4567</span>;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; setprecision(<span class="number">3</span>) &lt;&lt; d &lt;&lt; <span class="built_in">endl</span>;	<span class="comment">//保留三位有效数字</span></span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; fixed &lt;&lt; setprecision(<span class="number">3</span>) &lt;&lt; d &lt;&lt; <span class="built_in">endl</span>;	<span class="comment">//保留三位小数</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><br>输出结果：<br><code>3.45</code><br><code>3.456</code></p>
+<h2 id="初始化字符数组"><a href="#初始化字符数组" class="headerlink" title="初始化字符数组"></a>初始化字符数组</h2><blockquote>
+<p>该方法用法：void * __cdecl memset(void *_Dst,int _Val,size_t _Size);</p>
+<blockquote>
+<p>Des：目标起始地址<br>Val：要赋的值<br>Size：复制的字节数</p>
+</blockquote>
+</blockquote>
+<p>该方法在string.h的库中。<br>memset( str, ‘a’, sizeof(str ));<br>用法如下：<br><figure class="highlight c"><figcaption><span>++</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;string.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">char</span> str1[<span class="number">5</span>];</span><br><span class="line">	<span class="keyword">int</span> str2[<span class="number">5</span>];</span><br><span class="line">	<span class="keyword">int</span> str3[<span class="number">5</span>];</span><br><span class="line">	<span class="built_in">memset</span>( str1, <span class="string">'a'</span>, <span class="keyword">sizeof</span>(str1) );</span><br><span class="line">	<span class="built_in">memset</span>( str2, <span class="number">0</span>, <span class="keyword">sizeof</span>(str2) );</span><br><span class="line">	<span class="built_in">memset</span>( str3, <span class="number">1</span>, <span class="keyword">sizeof</span>(str3) );</span><br><span class="line">	<span class="keyword">for</span>( <span class="keyword">int</span> i = <span class="number">0</span>; i &lt; <span class="number">5</span>; i++ ) &#123;</span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; <span class="string">"str1["</span> &lt;&lt; i &lt;&lt; <span class="string">"] = "</span> &lt;&lt; str1[i] &lt;&lt; <span class="string">"\tstr2["</span> &lt;&lt; i &lt;&lt; <span class="string">"] = "</span> &lt;&lt; str2[i] &lt;&lt; <span class="string">"\tstr3["</span> &lt;&lt; i &lt;&lt; <span class="string">"] = "</span> &lt;&lt; str3[i] &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><br>输出结果：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">str1[0] = a     str2[0] = 0     str3[0] = 16843009</span><br><span class="line">str1[1] = a     str2[1] = 0     str3[1] = 16843009</span><br><span class="line">str1[2] = a     str2[2] = 0     str3[2] = 16843009</span><br><span class="line">str1[3] = a     str2[3] = 0     str3[3] = 16843009</span><br></pre></td></tr></table></figure></p>
+<p>注意：有结果可知，整型数组无法被赋值为1。且整型数组只能被赋值为<font color="red">0，-1</font>两个值。<br>而字符数组没有限制。所以，memset方法常用来初始化字符数组。</p>
+<h2 id="输入一行带有空格字符串，或字符数组"><a href="#输入一行带有空格字符串，或字符数组" class="headerlink" title="输入一行带有空格字符串，或字符数组"></a>输入一行带有空格字符串，或字符数组</h2><blockquote>
+<p>getline5(cin, str);//string 类型<br>cin.getline(str, length);// char[] 类型</p>
+</blockquote>
+<p>getline( cin, str );<br>该方法只适用于string类型的字符串<br>cin.getline( str, length );<br>该方法只适用于字符数组<br>代码如下：<br><figure class="highlight c"><figcaption><span>++</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="built_in">string</span> str1;</span><br><span class="line">	<span class="keyword">char</span> str2[<span class="number">20</span>];</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; <span class="string">"请输入str1 : "</span>; </span><br><span class="line">	getline( <span class="built_in">cin</span>, str1 );</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; <span class="string">"请输入str2 : "</span>;</span><br><span class="line">	<span class="built_in">cin</span>.getline( str2, <span class="number">20</span> );</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; <span class="string">"str1 : "</span> &lt;&lt; str1 &lt;&lt; <span class="built_in">endl</span> &lt;&lt; <span class="string">"str2 : "</span> &lt;&lt; str2;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+    <div>
+      
+        <div>
+    
+        <div style="text-align:center;color: #aaa;font-size:16px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+      
+    </div>
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Online-Judge/" rel="tag"><i class="fa fa-tag"></i> Online Judge</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/Java_Basic/Java_Basic_09/" rel="next" title="【java】09常用类">
+                <i class="fa fa-chevron-left"></i> 【java】09常用类
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+    <div class="comments" id="comments">
+    </div>
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="http://pnz676ria.bkt.clouddn.com/whitegril.jpg" alt="zsqbigbig">
+            
+              <p class="site-author-name" itemprop="name">zsqbigbig</p>
+              <div class="site-description motion-element" itemprop="description">zsqbigbig</div>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">22</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                      <a href="/tags/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">8</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://github.com/zsqbigbig" title="GitHub &rarr; https://github.com/zsqbigbig" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://weibo.com/u/5661285984" title="微博 &rarr; https://weibo.com/u/5661285984" rel="noopener" target="_blank"><i class="fa fa-fw fa-weibo"></i>微博</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://www.zhihu.com/people/bu-zhi-dao-81-4/activities" title="知乎 &rarr; https://www.zhihu.com/people/bu-zhi-dao-81-4/activities" rel="noopener" target="_blank"><i class="fa fa-fw fa-book"></i>知乎</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://www.jianshu.com/u/ab4df9f2444b" title="简书 &rarr; https://www.jianshu.com/u/ab4df9f2444b" rel="noopener" target="_blank"><i class="fa fa-fw fa-heartbeat"></i>简书</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://space.bilibili.com/85844083" title="哔哩哔哩 &rarr; https://space.bilibili.com/85844083" rel="noopener" target="_blank"><i class="fa fa-fw fa-tv"></i>哔哩哔哩</a>
+                </span>
+              
+            </div>
+          
+
+          
+
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                推荐阅读
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://zsqbigbig.cn/Computer/Computer_01/" title="http://zsqbigbig.cn/Computer/Computer_01/" rel="noopener" target="_blank">计算机显示时间修改</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://zsqbigbig.cn/Computer/Computer_02/" title="http://zsqbigbig.cn/Computer/Computer_02/" rel="noopener" target="_blank">装裱手机零件</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1000-A-B-Problem"><span class="nav-number">1.</span> <span class="nav-text">[1000] A+B Problem</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#1003-Hangover"><span class="nav-number">2.</span> <span class="nav-text">[1003] Hangover</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#1004-Financial-Management"><span class="nav-number">3.</span> <span class="nav-text">[1004] Financial Management</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#1005-I-Think-I-Need-a-Houseboat"><span class="nav-number">4.</span> <span class="nav-text">[1005] I Think I Need a Houseboat</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#1006-Biorhythms"><span class="nav-number">5.</span> <span class="nav-text">[1006] Biorhythms</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#1007-DNA-Soring"><span class="nav-number">6.</span> <span class="nav-text">[1007] DNA Soring</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#总结"><span class="nav-number">7.</span> <span class="nav-text">总结</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#保留n位有效数字，保留n位小数"><span class="nav-number">7.1.</span> <span class="nav-text">保留n位有效数字，保留n位小数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#初始化字符数组"><span class="nav-number">7.2.</span> <span class="nav-text">初始化字符数组</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#输入一行带有空格字符串，或字符数组"><span class="nav-number">7.3.</span> <span class="nav-text">输入一行带有空格字符串，或字符数组</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+  
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">zsqbigbig</span>
+
+  
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+<!-- / 网站底部字数统计 -->
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count"><br> 博客全站共<b><font color="gray">15.4k</font></b>字</span>
+</div>
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-user"></i>
+    </span>
+    <span class="site-uv" title="总访客量">
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+    </span>
+  
+
+  
+    <span class="post-meta-divider">|</span>
+  
+
+  
+    <span class="post-meta-item-icon">
+      <i class="fa fa-eye"></i>
+    </span>
+    <span class="site-pv" title="总访问量">
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+    </span>
+  
+</div>
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+  
+  <script color="0,0,255" opacity="0.5" zindex="-1" count="99" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/js/src/utils.js?v=7.0.1"></script>
+
+  <script src="/js/src/motion.js?v=7.0.1"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/src/affix.js?v=7.0.1"></script>
+
+  <script src="/js/src/schemes/pisces.js?v=7.0.1"></script>
+
+
+
+  
+  <script src="/js/src/scrollspy.js?v=7.0.1"></script>
+<script src="/js/src/post-details.js?v=7.0.1"></script>
+
+
+
+  
+
+
+  <script src="/js/src/next-boot.js?v=7.0.1"></script>
+
+
+  
+
+  
+
+  
+
+  
+  
+
+<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
+
+
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'h5wcviQMMTaEVymt0dXl187Y-gzGzoHsz',
+    appKey: '89wkmnKeCj97eoJNaGbzShHI',
+    placeholder: '欢迎交流讨论...',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '15' || 10,
+    visitor: false,
+    lang: '' || 'zh-cn'
+  });
+</script>
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  <!-- 添加动态背景  -->
+  
+    <script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+  
+<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</html>
+  <!-- 添加动态背景 -->
+  <!-- 页面点击小红心 -->
+  <!--
+  -->
+  <script type="text/javascript" src="/js/src/love.js"></script>
+  <!-- 页面点击小红心 -->
