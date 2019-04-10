@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-06T15:16:24.944Z</updated>
+  <updated>2019-04-10T04:31:32.317Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,12 +21,12 @@
     <link href="http://yoursite.com/Online_Judge/Online_Judge_01/"/>
     <id>http://yoursite.com/Online_Judge/Online_Judge_01/</id>
     <published>2019-04-05T12:00:00.000Z</published>
-    <updated>2019-04-06T15:16:24.944Z</updated>
+    <updated>2019-04-10T04:31:32.317Z</updated>
     
     <summary type="html">
     
       &lt;blockquote&gt;
-&lt;p&gt;c++ OJ 学校4月11日有一个ACM的校赛，先参加试试，先做题练练吧。本来就菜，希望做几天题，能不被虐吧。毕竟我已经大三了，肯定会有一大堆学弟学妹们参加。加油吧，不要当一个菜鸡。&lt;/p&gt;
+&lt;p&gt;c++ OJ 加油吧，不要当一个菜鸡。做做题。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&quot;http://poj.org/problem?id=1000&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1000 A+B Problem&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://poj.org/problem?id=1003&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1003 Hangover&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://poj.org/problem?id=1004&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1004 Financial Management&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://poj.org/problem?id=1005&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1005 I Think I Need a Houseboat&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://poj.org/problem?id=1006&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1006 Biorhythms&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;http://poj.org/problem?id=1007&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;1007 DNA Soring&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -36,50 +36,6 @@
     
     
       <category term="Online Judge" scheme="http://yoursite.com/tags/Online-Judge/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Struts2】02</title>
-    <link href="http://yoursite.com/Java_ssm/Java_Struts_02/"/>
-    <id>http://yoursite.com/Java_ssm/Java_Struts_02/</id>
-    <published>2019-03-31T07:55:04.000Z</published>
-    <updated>2019-03-31T11:21:37.194Z</updated>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;Struts2框架&lt;br&gt;1.通配符&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-    
-      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
-    
-      <category term="Strust2" scheme="http://yoursite.com/tags/Strust2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【Struts2】01</title>
-    <link href="http://yoursite.com/Java_ssm/Java_Struts_01/"/>
-    <id>http://yoursite.com/Java_ssm/Java_Struts_01/</id>
-    <published>2019-03-31T02:15:43.000Z</published>
-    <updated>2019-03-31T09:20:34.372Z</updated>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;Struts2框架&lt;br&gt;使用Struts2框架是的准备工作，大概有以下四点&lt;br&gt;1.MVC的基本概念&lt;br&gt;2.Struts的工作原理&lt;br&gt;3.Struts的开发准备&lt;br&gt;4.Struts的开发实力&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-    
-      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
-    
-      <category term="Strust2" scheme="http://yoursite.com/tags/Strust2/"/>
     
   </entry>
   
