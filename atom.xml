@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>zsqbigbig</title>
+  <title>星际编码</title>
   
-  <subtitle>zsqbigbig</subtitle>
+  <subtitle>Galaxy Coding</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
@@ -83,7 +83,7 @@
     <link href="http://yoursite.com/Java_Basic/Java_Basic_06/"/>
     <id>http://yoursite.com/Java_Basic/Java_Basic_06/</id>
     <published>2019-03-19T11:25:57.381Z</published>
-    <updated>2019-03-19T15:27:00.366Z</updated>
+    <updated>2019-04-25T02:24:42.530Z</updated>
     
     <summary type="html">
     
